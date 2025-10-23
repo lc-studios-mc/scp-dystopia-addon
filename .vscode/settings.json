@@ -1,0 +1,18 @@
+{
+	"[markdown][yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.rulers": [100],
+	"files.eol": "\n",
+	"files.trimTrailingWhitespace": true,
+	"files.associations": {
+		"*.json": "jsonc",
+		"package.json": "json"
+	},
+	"json5.validate.enable": true,
+	"json5.format.enable": false
+}
