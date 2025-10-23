@@ -1,0 +1,108 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "lc:dt_glock_bullet_player_sneak",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"component_groups": {
+			"minecraft:exploding": {
+				"minecraft:explode": {
+					"fuseLength": 0,
+					"fuseLit": true,
+					"power": 0.1,
+					"causesFire": false,
+					"fire_affected_by_griefing": true,
+					"destroy_affected_by_griefing": true
+				}
+			},
+			"despawning": {
+				"minecraft:despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": ["bullet", "projectile"]
+			},
+			"minecraft:break_blocks": {
+				"breakable_blocks": ["glass", "glass_pane", "stained_glass", "stained_glass_pane"]
+			},
+			"minecraft:collision_box": {
+				"width": 0.01,
+				"height": 0.01
+			},
+			"minecraft:despawn": {
+				"filters": {
+					"all_of": [
+						{
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "self",
+									"value": "despawer_despawning"
+								}
+							]
+						}
+					]
+				}
+			},
+			"minecraft:projectile": {
+				"onHit": {
+					"impact_damage": {
+						"damage": 7,
+						"knockback": false,
+						"semirandomdiffdamage": false,
+						"destroyonhit": false
+					},
+					"stick_in_ground": {
+						"shake_time": 0.35
+					},
+					"definition_event": {
+						"affectProjectile": false,
+						"eventTrigger": {}
+					}
+				},
+				"hit_sound": "gun.hit",
+				"power": 1.24,
+				"gravity": 0.0,
+				"inertia": 2.5,
+				"uncertaintyBase": 7,
+				"uncertaintyMultiplier": 1.8,
+				"anchor": 1,
+				"offset": [0, 0, 0],
+				"reflectOnHurt": false,
+				"catch_fire": false
+			},
+			"minecraft:physics": {},
+			"minecraft:timer": {
+				"looping": false,
+				"time": 0.2,
+				"time_down_event": {
+					"event": "minecraft:start_despawn"
+				}
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80.0,
+					"max_dropped_ticks": 7,
+					"use_motion_prediction_hints": true
+				}
+			}
+		},
+		"events": {
+			"minecraft:explode": {
+				"add": {
+					"component_groups": ["minecraft:exploding"]
+				}
+			},
+			"minecraft:start_despawn": {
+				"add": {
+					"component_groups": ["despawning"]
+				}
+			}
+		}
+	}
+}

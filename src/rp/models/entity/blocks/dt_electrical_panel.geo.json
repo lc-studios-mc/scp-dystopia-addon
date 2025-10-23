@@ -1,0 +1,100 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dt_electrical_panel",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "electrical_panel",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-16, 0, -8], "size": [32, 16, 1], "uv": [0, 0]},
+						{"origin": [-16, 0, -7], "size": [32, 1, 1], "uv": [0, 21]},
+						{"origin": [-16, 15, -7], "size": [32, 1, 1], "uv": [0, 18]},
+						{"origin": [15, 1, -7], "size": [1, 14, 1], "uv": [22, 38]},
+						{"origin": [-16, 1, -7], "size": [1, 14, 1], "uv": [17, 38]},
+						{"origin": [-13, 3, -7], "size": [1, 1, 1], "uv": [5, 49]},
+						{"origin": [-9, 3, -7], "size": [1, 1, 1], "uv": [0, 49]},
+						{"origin": [-9, 2, -7.8], "size": [1, 6, 1], "uv": [43, 41]},
+						{"origin": [-13, 2, -7.8], "size": [1, 6, 1], "uv": [38, 41]}
+					]
+				},
+				{
+					"name": "leverbase1",
+					"parent": "electrical_panel",
+					"pivot": [12, 8, -7.5],
+					"cubes": [
+						{"origin": [8, 2, -7.5], "size": [6, 12, 1], "uv": [30, 24]}
+					]
+				},
+				{
+					"name": "lever1",
+					"parent": "leverbase1",
+					"pivot": [12, 8, -7.5],
+					"cubes": [
+						{"origin": [9, 8, -6.5], "size": [1, 1, 2], "uv": [45, 28]},
+						{"origin": [12, 8, -6.5], "size": [1, 1, 2], "uv": [45, 32]},
+						{"origin": [9, 8, -4.5], "size": [4, 1, 1], "uv": [27, 41]}
+					]
+				},
+				{
+					"name": "leverbase2",
+					"parent": "electrical_panel",
+					"pivot": [5, 8, -7.5],
+					"cubes": [
+						{"origin": [1, 2, -7.5], "size": [6, 12, 1], "uv": [15, 24]}
+					]
+				},
+				{
+					"name": "lever2",
+					"parent": "leverbase2",
+					"pivot": [5, 3, -7.5],
+					"cubes": [
+						{"origin": [2, 3, -6.5], "size": [1, 1, 2], "uv": [45, 24]},
+						{"origin": [5, 3, -6.5], "size": [1, 1, 2], "uv": [7, 45]},
+						{"origin": [2, 3, -4.5], "size": [4, 1, 1], "uv": [38, 38]}
+					]
+				},
+				{
+					"name": "leverbase3",
+					"parent": "electrical_panel",
+					"pivot": [-2, 8, -7.5],
+					"cubes": [
+						{"origin": [-6, 2, -7.5], "size": [6, 12, 1], "uv": [0, 24]}
+					]
+				},
+				{
+					"name": "lever3",
+					"parent": "leverbase3",
+					"pivot": [-2, 12, -7.5],
+					"cubes": [
+						{"origin": [-5, 12, -6.5], "size": [1, 1, 2], "uv": [0, 45]},
+						{"origin": [-2, 12, -6.5], "size": [1, 1, 2], "uv": [27, 44]},
+						{"origin": [-5, 12, -4.5], "size": [4, 1, 1], "uv": [27, 38]}
+					]
+				},
+				{
+					"name": "panel",
+					"parent": "electrical_panel",
+					"pivot": [-10, 11, -7.8],
+					"cubes": [
+						{"origin": [-14, 9, -7.8], "size": [7, 5, 1], "uv": [0, 38]},
+						{"origin": [-9, 10, -7.5], "size": [1, 1, 1], "uv": [48, 46]},
+						{"origin": [-11, 10, -7.5], "size": [1, 1, 1], "uv": [48, 43]},
+						{"origin": [-13, 10, -7.5], "size": [1, 1, 1], "uv": [48, 40]},
+						{"origin": [-13, 12, -7.5], "size": [1, 1, 1], "uv": [33, 47]},
+						{"origin": [-11, 12, -7.5], "size": [1, 1, 1], "uv": [27, 48]},
+						{"origin": [-9, 12, -7.5], "size": [1, 1, 1], "uv": [48, 36]}
+					]
+				}
+			]
+		}
+	]
+}

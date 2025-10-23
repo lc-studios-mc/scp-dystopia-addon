@@ -1,0 +1,44 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dt_office_desk",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "desk",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-15, 2, -8], "size": [30, 13, 1], "uv": [0, 48]},
+						{"origin": [-16, 15, -8], "size": [32, 1, 16], "uv": [0, 0]},
+						{"origin": [15, 1, -8], "size": [1, 14, 6], "uv": [57, 57]},
+						{"origin": [15, 1, -2], "size": [1, 1, 10], "uv": [0, 63]},
+						{"origin": [15, 0.2, 7], "size": [1, 1, 1], "inflate": 0.2, "uv": [5, 3]},
+						{"origin": [15, 0.2, -8], "size": [1, 1, 1], "inflate": 0.2, "uv": [5, 0]},
+						{"origin": [-16, 0.2, 7], "size": [1, 1, 1], "inflate": 0.2, "uv": [0, 3]},
+						{"origin": [-16, 0.2, -8], "size": [1, 1, 1], "inflate": 0.2, "uv": [0, 0]},
+						{"origin": [-16, 1, -2], "size": [1, 1, 10], "uv": [54, 29]},
+						{"origin": [-16, 1, -8], "size": [1, 14, 6], "uv": [49, 18]}
+					]
+				},
+				{
+					"name": "strage",
+					"parent": "desk",
+					"pivot": [-9.5, 0, 0],
+					"cubes": [
+						{"origin": [-14.5, 0, -7], "size": [10, 15, 14], "uv": [0, 18]},
+						{"origin": [-14.5, 1, 7], "size": [10, 5, 1], "uv": [49, 41]},
+						{"origin": [-14.5, 7, 7], "size": [10, 3, 1], "uv": [13, 63]},
+						{"origin": [-14.5, 11, 7], "size": [10, 3, 1], "uv": [58, 18]}
+					]
+				}
+			]
+		}
+	]
+}

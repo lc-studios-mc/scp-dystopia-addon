@@ -1,0 +1,73 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dt_living_bench",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "living_bench",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [13, 0, -7], "size": [2, 1, 14], "uv": [28, 96]},
+						{"origin": [-13, 0, -7], "size": [26, 1, 1], "uv": [28, 96]},
+						{"origin": [-13, 0, 6], "size": [26, 1, 1], "uv": [28, 96]},
+						{"origin": [-13, 7, 6], "size": [26, 1, 1], "uv": [28, 96]},
+						{"origin": [-13, 7, -7], "size": [26, 1, 1], "uv": [28, 96]},
+						{"origin": [-15, 0, -7], "size": [2, 1, 14], "uv": [28, 96]},
+						{"origin": [-15, 7, -7], "size": [2, 1, 14], "uv": [28, 96]},
+						{"origin": [-15, 1, -7], "size": [2, 6, 1], "uv": [28, 96]},
+						{"origin": [-15, 1, 6], "size": [2, 6, 1], "uv": [28, 96]},
+						{"origin": [13, 7, -7], "size": [2, 1, 14], "uv": [28, 96]},
+						{"origin": [13, 1, 6], "size": [2, 6, 1], "uv": [28, 96]},
+						{"origin": [13, 1, -7], "size": [2, 6, 1], "uv": [28, 96]}
+					]
+				},
+				{
+					"name": "upper",
+					"parent": "living_bench",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-16, 8, -7], "size": [32, 1, 15], "uv": [13, 28]},
+						{"origin": [-16, 9, -8], "size": [32, 13, 1], "uv": [13, 28]},
+						{"origin": [-16, 10, -7], "size": [32, 11, 1], "uv": [13, 28]},
+						{"origin": [-16, 9, -7], "size": [32, 1, 14], "uv": [13, 28]}
+					]
+				},
+				{
+					"name": "curve1",
+					"parent": "upper",
+					"pivot": [0, 9, 8],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-16, 9, 7], "size": [32, 1.41421, 1], "uv": [13, 28]}
+					]
+				},
+				{
+					"name": "curve3",
+					"parent": "upper",
+					"pivot": [0, 21, -6],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-16, 21, -7], "size": [32, 1.41421, 1], "uv": [13, 28]}
+					]
+				},
+				{
+					"name": "curve2",
+					"parent": "upper",
+					"pivot": [0, 8.70711, -6.29289],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-16, 8.70711, -7.29289], "size": [32, 1.41421, 1], "uv": [13, 28]}
+					]
+				}
+			]
+		}
+	]
+}

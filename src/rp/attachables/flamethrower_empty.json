@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "lc:dt_flamethrower_empty",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/attachment/dt_flamethrower",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.item.dt_flamethrower"
+			},
+			"animations": {
+				"hold": "controller.animation.item.dt_flamethrower_empty.hold",
+				"holding": "animation.item.dt_flamethrower.holding",
+				"hide_ra": "animation.item.dt_flamethrower.hide_ra",
+				"hide_head": "animation.item.dt_flamethrower.hide_head",
+				"pickup": "animation.item.dt_flamethrower.picking",
+				"shoot": "animation.item.dt_flamethrower.shoot",
+				"reload": "animation.item.dt_flamethrower.reload",
+				"empty": "animation.item.dt_flamethrower.empty"
+			},
+			"scripts": {
+				"animate": [
+					"hold",
+					{
+						"hide_ra": "c.is_first_person"
+					},
+					{
+						"hide_head": "!c.is_first_person"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.item_default"]
+		}
+	}
+}

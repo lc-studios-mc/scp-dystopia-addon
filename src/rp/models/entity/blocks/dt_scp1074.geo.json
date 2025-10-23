@@ -1,0 +1,61 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dt_scp1074",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "scp1074",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "stg1",
+					"parent": "scp1074",
+					"pivot": [0, 0, -4],
+					"rotation": [-5.5, 0, 0],
+					"cubes": [
+						{"origin": [-6, 9, -6.1], "size": [12, 1, 2], "uv": [4, 14]},
+						{"origin": [-5, 10, -6.2], "size": [10, 13, 1], "uv": [0, 0]},
+						{"origin": [-0.5, 9, -5], "size": [1, 21, 1], "inflate": 0.1, "uv": [12, 17]},
+						{"origin": [-4, 21.9, -5], "size": [8, 1, 1], "inflate": -0.1, "uv": [16, 17]}
+					]
+				},
+				{
+					"name": "st1",
+					"parent": "stg1",
+					"pivot": [-6, 0, -4],
+					"rotation": [0, 0, 7.5],
+					"cubes": [
+						{"origin": [-7, 0, -5], "size": [1, 25, 1], "uv": [4, 17]}
+					]
+				},
+				{
+					"name": "st2",
+					"parent": "stg1",
+					"pivot": [6, 0, -4],
+					"rotation": [0, 0, -7.5],
+					"cubes": [
+						{"origin": [6, 0, -5], "size": [1, 25, 1], "uv": [8, 17]}
+					]
+				},
+				{
+					"name": "stg2",
+					"parent": "scp1074",
+					"pivot": [0, 0, 4],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 0, 4], "size": [1, 28, 1], "uv": [0, 14]}
+					]
+				}
+			]
+		}
+	]
+}
