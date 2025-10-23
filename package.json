@@ -2,6 +2,10 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"dev": "dotenv -v DEV=true -v WATCH=true -- tsx ganban/ganban.ts",
+		"lint": "tsc && tsc -p ganban/tsconfig.json",
+		"clean": "shx rm -rf build",
+		"format": "prettier --write ."
 	},
 	"dependencies": {
 		"@minecraft/server": "2.2.0",
