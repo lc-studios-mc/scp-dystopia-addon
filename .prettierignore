@@ -1,0 +1,10 @@
+.github/
+.pnpm-store/
+build/
+node_modules/
+
+pnpm-lock.yaml
+LICENSE
+
+*.animation.json
+*.geo.json
