@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.110",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lc:dt_tile_floor"
@@ -11,26 +11,26 @@
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:pick_collision": {
+			"minecraft:collision_box": {
 				"origin": [-8, 0, -8],
 				"size": [16, 16, 16]
 			},
-			"minecraft:entity_collision": {
+			"minecraft:selection_box": {
 				"origin": [-8, 0, -8],
 				"size": [16, 16, 16]
 			},
-			"minecraft:geometry": "geometry.block.dt_tile_floor",
-			"minecraft:destroy_time": 1.4,
-			"minecraft:explosion_resistance": 11.0,
+			"minecraft:geometry": {
+				"identifier": "geometry.block.dt_tile_floor"
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 11.0
+			},
 			"minecraft:map_color": "#3B3D94",
-			"minecraft:flammable": {
-				"flame_odds": 0,
-				"burn_odds": 0
-			},
-			"minecraft:block_light_absorption": 10.0,
+			"minecraft:light_dampening": 10.0,
 			"tag:lc:dystopiablock": {}
-		},
-		"events": {},
-		"permutations": []
+		}
 	}
 }
