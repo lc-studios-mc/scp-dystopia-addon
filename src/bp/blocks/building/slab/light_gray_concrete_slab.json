@@ -5,10 +5,6 @@
 			"identifier": "lc:dt_light_gray_concrete_slab"
 		},
 		"components": {
-			"minecraft:creative_category": {
-				"group": "itemGroup.name.stone",
-				"category": "Nature"
-			},
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "dt_light_gray_concrete",
