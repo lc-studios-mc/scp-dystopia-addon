@@ -66,6 +66,18 @@
 							"lc:dt_hcz_wall3",
 						],
 					},
+
+					{
+						group_identifier: {
+							icon: "lc:dt_facility_wall_curve",
+							name: "lc:dt_item_group_curve_blocks",
+						},
+						items: [
+							"lc:dt_facility_wall_curve",
+							"lc:dt_gray_concrete_curve",
+							"lc:dt_light_gray_concrete_curve",
+						],
+					},
 				],
 			},
 		],
