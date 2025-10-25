@@ -135,6 +135,23 @@
 					},
 				],
 			},
+
+			{
+				category_name: "items",
+				groups: [
+					{
+						items: [
+							"lc:dt_keycard1",
+							"lc:dt_keycard2",
+							"lc:dt_keycard3",
+							"lc:dt_keycard4",
+							"lc:dt_keycard5",
+							"lc:dt_keycard_omni",
+							"lc:dt_keycard_o5",
+						],
+					},
+				],
+			},
 		],
 	},
 }
