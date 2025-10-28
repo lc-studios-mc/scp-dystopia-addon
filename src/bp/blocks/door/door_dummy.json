@@ -1,35 +1,74 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.110",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lc:dt_door_dummy",
-			"properties": {}
+			"menu_category": {
+				"category": "construction",
+				"is_hidden_in_commands": true
+			}
 		},
 		"components": {
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "dt_dummy",
-					"render_method": "blend"
+					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:loot": "loot_tables/empty.json",
-			"minecraft:pick_collision": {
-				"origin": [-8, 0, -8],
-				"size": [16, 16, 16]
-			},
-			"minecraft:entity_collision": {
-				"origin": [-8, 0, -8],
-				"size": [16, 16, 16]
-			},
 			"minecraft:geometry": "geometry.dt_dummy",
-			"minecraft:destroy_time": 0.8,
-			"minecraft:map_color": "#3B3D94",
-			"minecraft:flammable": {
-				"flame_odds": 0,
-				"burn_odds": 0
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
 			},
-			"minecraft:block_light_absorption": 0.0,
-			"tag:lc:dummy": {}
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 24.0
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 15,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+						},
+						"destroy_speed": 0.9
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+						},
+						"destroy_speed": 0.8
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+						},
+						"destroy_speed": 0.7
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+						},
+						"destroy_speed": 0.6
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+						},
+						"destroy_speed": 0.5
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+						},
+						"destroy_speed": 0.4
+					}
+				]
+			}
 		},
 		"events": {},
 		"permutations": []

@@ -176,6 +176,20 @@
 				"sounds/doors/door1_close3"
 			]
 		},
+		"scpdt.door2.open": {
+			"category": "neutral",
+			"max_distance": 9.0,
+			"sounds": ["sounds/doors/door1_open1", "sounds/doors/door1_open2", "sounds/doors/door1_open3"]
+		},
+		"scpdt.door2.close": {
+			"category": "neutral",
+			"max_distance": 9.0,
+			"sounds": [
+				"sounds/doors/door1_close1",
+				"sounds/doors/door1_close2",
+				"sounds/doors/door1_close3"
+			]
+		},
 		"scpdt.door3.open": {
 			"category": "neutral",
 			"max_distance": 9.0,
@@ -192,6 +206,20 @@
 				"sounds/doors/door_hcz_close1",
 				"sounds/doors/door_hcz_close2",
 				"sounds/doors/door_hcz_close3"
+			]
+		},
+		"scpdt.door4.open": {
+			"category": "neutral",
+			"max_distance": 9.0,
+			"sounds": ["sounds/doors/door1_open1", "sounds/doors/door1_open2", "sounds/doors/door1_open3"]
+		},
+		"scpdt.door4.close": {
+			"category": "neutral",
+			"max_distance": 9.0,
+			"sounds": [
+				"sounds/doors/door1_close1",
+				"sounds/doors/door1_close2",
+				"sounds/doors/door1_close3"
 			]
 		},
 		"scpdt.blast_door.close": {

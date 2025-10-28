@@ -1,6 +1,33 @@
 lc:dt_item_group_label_blocks=Labels §7[SCP: Dystopia]§r
 lc:dt_item_group_construction_blocks=Construction Blocks §7[SCP: Dystopia]§r
 lc:dt_item_group_curve_blocks=Curve Blocks §7[SCP: Dystopia]§r
+lc:dt_item_group_doors=Doors §7[SCP: Dystopia]§r
+
+tile.lc:dt_door1_v2.name=SCP Facility Door 1
+tile.lc:dt_door1_lvl1_v2.name=SCP Facility Door 1 (Level 1)
+tile.lc:dt_door1_lvl2_v2.name=SCP Facility Door 1 (Level 2)
+tile.lc:dt_door1_lvl3_v2.name=SCP Facility Door 1 (Level 3)
+tile.lc:dt_door1_lvl4_v2.name=SCP Facility Door 1 (Level 4)
+tile.lc:dt_door1_lvl5_v2.name=SCP Facility Door 1 (Level 5)
+tile.lc:dt_door2_v2.name=SCP Facility Door 2
+tile.lc:dt_door2_lvl1_v2.name=SCP Facility Door 2 (Level 1)
+tile.lc:dt_door2_lvl2_v2.name=SCP Facility Door 2 (Level 2)
+tile.lc:dt_door2_lvl3_v2.name=SCP Facility Door 2 (Level 3)
+tile.lc:dt_door2_lvl4_v2.name=SCP Facility Door 2 (Level 4)
+tile.lc:dt_door2_lvl5_v2.name=SCP Facility Door 2 (Level 5)
+tile.lc:dt_door3_v2.name=SCP Facility Door 3
+tile.lc:dt_door3_lvl1_v2.name=SCP Facility Door 3 (Level 1)
+tile.lc:dt_door3_lvl2_v2.name=SCP Facility Door 3 (Level 2)
+tile.lc:dt_door3_lvl3_v2.name=SCP Facility Door 3 (Level 3)
+tile.lc:dt_door3_lvl4_v2.name=SCP Facility Door 3 (Level 4)
+tile.lc:dt_door3_lvl5_v2.name=SCP Facility Door 3 (Level 5)
+tile.lc:dt_door4_v2.name=SCP Facility Door 4
+tile.lc:dt_door4_lvl1_v2.name=SCP Facility Door 4 (Level 1)
+tile.lc:dt_door4_lvl2_v2.name=SCP Facility Door 4 (Level 2)
+tile.lc:dt_door4_lvl3_v2.name=SCP Facility Door 4 (Level 3)
+tile.lc:dt_door4_lvl4_v2.name=SCP Facility Door 4 (Level 4)
+tile.lc:dt_door4_lvl5_v2.name=SCP Facility Door 4 (Level 5)
+tile.lc:dt_door_o5_v2.name=O5 Level Facility Door
 
 tips.game.1=[SCP: Dystopia] SCP-1023-ARC also work as remover tool.
 tips.game.2=[SCP: Dystopia] You can discover Dystopia Craftbench in ruined house.
