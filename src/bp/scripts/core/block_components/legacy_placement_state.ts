@@ -1,11 +1,5 @@
+import { LEGACY_FACING_DIRECTION_INDEX } from "@/lib/direction";
 import * as mc from "@minecraft/server";
-
-const FACING_DIRECTION_INDEX = {
-	NORTH: 2,
-	EAST: 5,
-	SOUTH: 3,
-	WEST: 4,
-} as const;
 
 const getPlayerFacingDirectionIndex = (player: mc.Player, reverse = false): number => {
 	const rot = player.getRotation();
@@ -15,13 +9,13 @@ const getPlayerFacingDirectionIndex = (player: mc.Player, reverse = false): numb
 	const normalizedYaw = ((yaw + 180) % 360) - 180;
 
 	if (normalizedYaw >= -45 && normalizedYaw < 45) {
-		return reverse ? FACING_DIRECTION_INDEX.SOUTH : FACING_DIRECTION_INDEX.NORTH;
+		return reverse ? LEGACY_FACING_DIRECTION_INDEX.south : LEGACY_FACING_DIRECTION_INDEX.north;
 	} else if (normalizedYaw >= 45 && normalizedYaw < 135) {
-		return reverse ? FACING_DIRECTION_INDEX.WEST : FACING_DIRECTION_INDEX.EAST;
+		return reverse ? LEGACY_FACING_DIRECTION_INDEX.west : LEGACY_FACING_DIRECTION_INDEX.east;
 	} else if (normalizedYaw >= 135 || normalizedYaw < -135) {
-		return reverse ? FACING_DIRECTION_INDEX.NORTH : FACING_DIRECTION_INDEX.SOUTH;
+		return reverse ? LEGACY_FACING_DIRECTION_INDEX.north : LEGACY_FACING_DIRECTION_INDEX.south;
 	} else if (normalizedYaw >= -135 && normalizedYaw < -45) {
-		return reverse ? FACING_DIRECTION_INDEX.EAST : FACING_DIRECTION_INDEX.WEST;
+		return reverse ? LEGACY_FACING_DIRECTION_INDEX.east : LEGACY_FACING_DIRECTION_INDEX.west;
 	}
 
 	return 2;
