@@ -13,6 +13,7 @@
 		"gl-matrix": "^3.4.4"
 	},
 	"devDependencies": {
+		"@mcbe-toolbox-lc/builder": "^0.1.0",
 		"@types/node": "^22.18.12",
 		"dotenv-cli": "^10.0.0",
 		"ganban": "^0.3.1",
