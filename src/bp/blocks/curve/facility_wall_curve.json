@@ -13,7 +13,8 @@
 		},
 		"components": {
 			"scpdt:legacy_placement_state": {
-				"facingDirectionState": "facing:direction"
+				"facingDirectionState": "facing:direction",
+				"facingDirectionReverse": true
 			},
 			"scpdt:curve_block": {},
 			"minecraft:material_instances": {
@@ -52,25 +53,25 @@
 			{
 				"condition": "q.block_state('facing:direction') == 2",
 				"components": {
-					"minecraft:transformation": { "rotation": [0, 180, 0] }
+					"minecraft:transformation": { "rotation": [0, 0, 0] }
 				}
 			},
 			{
 				"condition": "q.block_state('facing:direction') == 3",
 				"components": {
-					"minecraft:transformation": { "rotation": [0, 0, 0] }
+					"minecraft:transformation": { "rotation": [0, 180, 0] }
 				}
 			},
 			{
 				"condition": "q.block_state('facing:direction') == 4",
 				"components": {
-					"minecraft:transformation": { "rotation": [0, 270, 0] }
+					"minecraft:transformation": { "rotation": [0, 90, 0] }
 				}
 			},
 			{
 				"condition": "q.block_state('facing:direction') == 5",
 				"components": {
-					"minecraft:transformation": { "rotation": [0, 90, 0] }
+					"minecraft:transformation": { "rotation": [0, 270, 0] }
 				}
 			}
 		]
