@@ -2,7 +2,9 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "dotenv -v DEV=true -v WATCH=true -- tsx ganban/ganban.ts",
+		"build": "tsx scripts/build.ts",
+		"build:dev": "dotenv -v DEV=1 -- pnpm run build",
+		"build:dev:watch": "dotenv -v DEV=1 -v WATCH=1 -- pnpm run build",
 		"lint": "tsc && tsc -p ganban/tsconfig.json",
 		"clean": "shx rm -rf build",
 		"format": "prettier --write ."
