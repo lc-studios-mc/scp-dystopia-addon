@@ -1,6 +1,6 @@
 import { createBlockStatesString } from "@/lib/block_utils";
 import { convertLegacyFacingDirectionToDir, getLegacyFacingDirectionIndex } from "@/lib/direction";
-import { GlVector3 } from "@/lib/vec";
+import * as vecarr from "@mcbe-toolbox-lc/vecarr";
 import * as mc from "@minecraft/server";
 
 type ComponentParams = {
@@ -21,7 +21,7 @@ const convert = (block: mc.Block, params: ComponentParams) => {
 		"minecraft:cardinal_direction": cardinalDirection,
 	});
 
-	const location = Array.from(GlVector3.fromObject(block.location).v).join(" ");
+	const location = vecarr.toArr3(block.location).join(" ");
 
 	const cmd = `setblock ${location} ${params.newType} [${statesString}]`;
 
