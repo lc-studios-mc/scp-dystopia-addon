@@ -173,7 +173,12 @@
 							icon: "lc:dt_air_conditioner",
 							name: "lc:dt_item_group_furni_decor",
 						},
-						items: ["lc:dt_air_conditioner", "lc:dt_alarm", "lc:dt_barbed_wire"],
+						items: [
+							"lc:dt_air_conditioner",
+							"lc:dt_alarm",
+							"lc:dt_barbed_wire",
+							"lc:dt_big_number_sign",
+						],
 					},
 				],
 			},
