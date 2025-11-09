@@ -4,7 +4,6 @@
 		"description": {
 			"identifier": "lc:dt_door2_lvl1",
 			"menu_category": {
-				"category": "construction",
 				"is_hidden_in_commands": true
 			},
 			"states": {

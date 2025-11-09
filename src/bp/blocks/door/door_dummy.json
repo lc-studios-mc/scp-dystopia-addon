@@ -4,8 +4,7 @@
 		"description": {
 			"identifier": "lc:dt_door_dummy",
 			"menu_category": {
-				"category": "construction",
-				"is_hidden_in_commands": true
+				"is_hidden_in_commands": false
 			}
 		},
 		"components": {
