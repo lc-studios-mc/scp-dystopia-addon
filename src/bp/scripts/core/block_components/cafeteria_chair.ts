@@ -1,6 +1,6 @@
-import * as mc from "@minecraft/server";
-import { runCommandAtBlock } from "@mcbe-toolbox-lc/sukuriputils";
+import { sit } from "@/lib/sit";
 import { isHoldingWrench } from "@/lib/wrench";
+import * as mc from "@minecraft/server";
 
 mc.system.beforeEvents.startup.subscribe((e) => {
 	e.blockComponentRegistry.registerCustomComponent("scpdt:cafeteria_chair", {
@@ -15,7 +15,7 @@ mc.system.beforeEvents.startup.subscribe((e) => {
 
 				block.setPermutation(block.permutation.withState("cafeteria_chair:color", nextVariant));
 			} else {
-				runCommandAtBlock(block, "function scpdt_system/sit");
+				sit(player, block.bottomCenter());
 			}
 		},
 	});
