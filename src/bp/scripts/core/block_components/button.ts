@@ -1,5 +1,5 @@
 import * as mc from "@minecraft/server";
-import { runCommandAtBlock } from "@mcbe-toolbox-lc/sukuriputils";
+import { runCommandAtBlock } from "@mcbe-toolbox-lc/sukuriputils/server";
 
 mc.system.beforeEvents.startup.subscribe((e) => {
 	e.blockComponentRegistry.registerCustomComponent("scpdt:button", {
