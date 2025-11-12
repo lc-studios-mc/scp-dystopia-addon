@@ -4,6 +4,7 @@ import "./big_number_sign";
 import "./bomb_activator";
 import "./button";
 import "./cafeteria_chair";
+import "./camera";
 import "./curve_block";
 import "./legacy_placement_state";
 import "./old_door_conversion";
