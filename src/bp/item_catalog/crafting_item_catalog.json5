@@ -208,6 +208,13 @@
 					},
 
 					{
+						group_identifier: {
+							name: "minecraft:itemGroup.name.pickaxe",
+						},
+						items: ["lc:dt_dystopia_pickaxe"],
+					},
+
+					{
 						items: ["lc:dt_commander"],
 					},
 				],
