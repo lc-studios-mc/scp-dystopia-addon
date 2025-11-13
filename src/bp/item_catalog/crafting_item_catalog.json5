@@ -225,7 +225,7 @@
 					},
 
 					{
-						items: ["lc:dt_ci_currency"],
+						items: ["lc:dt_ci_currency", "lc:dt_empty_mug", "lc:dt_coffee_mug"],
 					},
 				],
 			},
