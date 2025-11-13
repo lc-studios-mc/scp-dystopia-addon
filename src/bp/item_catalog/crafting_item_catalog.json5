@@ -223,6 +223,10 @@
 							"lc:dt_keycard_o5",
 						],
 					},
+
+					{
+						items: ["lc:dt_ci_currency"],
+					},
 				],
 			},
 		],
