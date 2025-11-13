@@ -242,6 +242,7 @@
 							"lc:dt_confidential_file",
 							"lc:dt_empty_mug",
 							"lc:dt_coffee_mug",
+							"lc:dt_imposter_totem",
 						],
 					},
 				],
