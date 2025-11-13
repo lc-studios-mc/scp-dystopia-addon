@@ -198,6 +198,18 @@
 			},
 
 			{
+				category_name: "equipment",
+				groups: [
+					{
+						group_identifier: {
+							name: "minecraft:itemGroup.name.miscFood",
+						},
+						items: ["lc:dt_candy1", "lc:dt_candy2", "lc:dt_candy3"],
+					},
+				],
+			},
+
+			{
 				category_name: "items",
 				groups: [
 					{
