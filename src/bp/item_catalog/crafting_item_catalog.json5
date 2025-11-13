@@ -229,7 +229,13 @@
 					},
 
 					{
-						items: ["lc:dt_coin", "lc:dt_ci_currency", "lc:dt_empty_mug", "lc:dt_coffee_mug"],
+						items: [
+							"lc:dt_coin",
+							"lc:dt_ci_currency",
+							"lc:dt_confidential_file",
+							"lc:dt_empty_mug",
+							"lc:dt_coffee_mug",
+						],
 					},
 				],
 			},
