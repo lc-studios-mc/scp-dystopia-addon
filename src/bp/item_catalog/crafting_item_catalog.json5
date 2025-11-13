@@ -246,6 +246,15 @@
 					},
 				],
 			},
+
+			{
+				category_name: "nature",
+				groups: [
+					{
+						items: ["lc:dt_scpdystopia_orb", "lc:dt_enhanced_scpdystopia_orb"],
+					},
+				],
+			},
 		],
 	},
 }
