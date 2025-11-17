@@ -215,7 +215,7 @@
 					},
 
 					{
-						items: ["lc:dt_medkit", "lc:dt_commander"],
+						items: ["lc:dt_medkit", "lc:dt_morphine_syringe", "lc:dt_commander"],
 					},
 				],
 			},
