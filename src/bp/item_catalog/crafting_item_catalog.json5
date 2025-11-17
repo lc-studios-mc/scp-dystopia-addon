@@ -216,6 +216,7 @@
 
 					{
 						items: [
+							"lc:dt_painkillers",
 							"lc:dt_medkit",
 							"lc:dt_morphine_syringe",
 							"lc:dt_mystery_syringe",
