@@ -254,9 +254,10 @@
 
 					{
 						group_identifier: {
+							icon: "lc:dt_scp005",
 							name: "lc:dt_item_group_scp",
 						},
-						items: ["lc:dt_scp005"],
+						items: ["lc:dt_scp005", "lc:dt_scp058_body_scrap"],
 					},
 				],
 			},
