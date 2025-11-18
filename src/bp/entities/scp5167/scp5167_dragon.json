@@ -127,17 +127,6 @@
 					}
 				]
 			},
-			"minecraft:area_attack": {
-				"damage_range": 3.4,
-				"damage_per_tick": 6,
-				"cause": "contact",
-				"entity_filter": {
-					"all_of": [
-						{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp5167" },
-						{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp" }
-					]
-				}
-			},
 			"minecraft:behavior.summon_entity": {
 				"priority": 1,
 				"summon_choices": [
