@@ -204,7 +204,7 @@
 						group_identifier: {
 							name: "minecraft:itemGroup.name.miscFood",
 						},
-						items: ["lc:dt_candy1", "lc:dt_candy2", "lc:dt_candy3"],
+						items: ["lc:dt_candy1", "lc:dt_candy2", "lc:dt_candy3", "lc:dt_pizza_slice"],
 					},
 
 					{
