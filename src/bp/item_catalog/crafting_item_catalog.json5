@@ -251,6 +251,13 @@
 							"lc:dt_imposter_totem",
 						],
 					},
+
+					{
+						group_identifier: {
+							name: "lc:dt_item_group_scp",
+						},
+						items: ["lc:dt_scp005"],
+					},
 				],
 			},
 

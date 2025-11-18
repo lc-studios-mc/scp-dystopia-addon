@@ -3,6 +3,7 @@ lc:dt_item_group_construction_blocks=Construction Blocks §7[SCP: Dystopia]§r
 lc:dt_item_group_curve_blocks=Curve Blocks §7[SCP: Dystopia]§r
 lc:dt_item_group_doors=Doors §7[SCP: Dystopia]§r
 lc:dt_item_group_furni_decor=Furniture & Decoration §7[SCP: Dystopia]§r
+lc:dt_item_group_scp=SCP(-related) §7[SCP: Dystopia]§r
 
 tile.lc:dt_door1_v2.name=SCP Facility Door 1
 tile.lc:dt_door1_lvl1_v2.name=SCP Facility Door 1 (Level 1)
