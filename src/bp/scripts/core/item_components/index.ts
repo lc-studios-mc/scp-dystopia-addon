@@ -4,3 +4,4 @@ import "./morphine_syringe";
 import "./painkillers";
 import "./scp063";
 import "./scp096_picture";
+import "./scp207";
