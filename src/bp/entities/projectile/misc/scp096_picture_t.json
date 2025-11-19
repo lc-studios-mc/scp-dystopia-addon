@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lc:dt_scp096_picture_t",
 			"is_spawnable": false,
-			"is_summonable": false,
+			"is_summonable": true,
 			"is_experimental": false,
 			"runtime_identifier": "minecraft:snowball",
 			"scripts": {
