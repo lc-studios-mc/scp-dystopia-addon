@@ -6,3 +6,4 @@ import "./scp063";
 import "./scp096_picture";
 import "./scp207";
 import "./scp420j";
+import "./scp500";
