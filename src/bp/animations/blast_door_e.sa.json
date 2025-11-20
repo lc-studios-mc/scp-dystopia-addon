@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.scpdt.blast_door_e.opening": {
+			"animation_length": 10,
+			"timeline": {
+				// TODO: Opening anim
+			}
+		},
+		"animation.scpdt.blast_door_e.closing": {
+			"animation_length": 10,
+			"timeline": {
+				// TODO: Closing anim
+			}
+		}
+	}
+}
