@@ -277,6 +277,14 @@
 							"lc:dt_sheaf_of_papers",
 						],
 					},
+
+					{
+						group_identifier: {
+							icon: "lc:dt_dtrifle_ammo",
+							name: "lc:dt_item_group_ammo",
+						},
+						items: ["lc:dt_dtrifle_ammo"],
+					},
 				],
 			},
 
