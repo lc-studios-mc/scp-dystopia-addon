@@ -223,6 +223,7 @@
 							"lc:dt_ak_mag",
 							"lc:dt_glock_mag",
 							"lc:dt_m16_mag",
+							"lc:dt_mp5_mag",
 							"lc:dt_hig_mag",
 							"lc:dt_flamethrower_fuel",
 						],
