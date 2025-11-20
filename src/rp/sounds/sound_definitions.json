@@ -160,7 +160,7 @@
 		"scpdt.flamethrower.fire": {
 			"category": "hostile",
 			"max_distance": 15.0,
-			"sounds": ["sounds/scpdt_misc/flamethrower/fire"]
+			"sounds": [{ "name": "sounds/scpdt_misc/flamethrower/fire", "volume": 0.33 }]
 		},
 		"scpdt.door1.open": {
 			"category": "neutral",
