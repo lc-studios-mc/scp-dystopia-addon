@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dt_blast_door_e": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					// TODO: Transitions
+				}
+			}
+		}
+	}
+}
