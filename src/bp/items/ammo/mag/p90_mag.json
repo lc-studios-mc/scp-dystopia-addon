@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lc:dt_p90_mag",
 			"menu_category": {
-				"category": "items"
+				"category": "equipment"
 			}
 		},
 		"components": {

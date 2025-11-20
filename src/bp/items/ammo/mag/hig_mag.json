@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lc:dt_hig_mag",
 			"menu_category": {
-				"category": "items"
+				"category": "equipment"
 			}
 		},
 		"components": {
