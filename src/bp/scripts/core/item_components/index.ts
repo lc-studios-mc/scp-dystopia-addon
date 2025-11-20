@@ -8,3 +8,4 @@ import "./scp207";
 import "./scp420j";
 import "./scp500";
 import "./scp714";
+import "./scp1023_arc";
