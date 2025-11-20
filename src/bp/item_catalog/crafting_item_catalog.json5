@@ -215,6 +215,14 @@
 					},
 
 					{
+						group_identifier: {
+							icon: "lc:dt_ak_mag",
+							name: "lc:dt_item_group_guns_and_mags",
+						},
+						items: ["lc:dt_ak_mag"],
+					},
+
+					{
 						items: [
 							"lc:dt_painkillers",
 							"lc:dt_medkit",
