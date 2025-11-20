@@ -508,6 +508,8 @@ entity.lc:dt_scp_redacted.name=[REDACTED]
 entity.lc:dt_scp1000.name=SCP-1000
 item.spawn_egg.entity.lc:dt_scp1000.name=Spawn SCP-1000 "Bigfoot" §7#dt_scp
 
+entity.lc:dt_blast_door_e.name=Blast Door
+
 ## New nameslots below
 
 dt.nameslot.scp096_picture=An album of SCP-096 pictures
