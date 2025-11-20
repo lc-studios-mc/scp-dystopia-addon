@@ -345,7 +345,25 @@
 			}
 		},
 		"animation.item.dt_flamethrower.hide_ra": {
-			"loop": true
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"scale": 0
+				},
+				"flamethrower2": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.item.dt_flamethrower.tp_offset": {
+			"loop": true,
+			"bones": {
+				"flamethrower2": {
+					"rotation": [90, 0, 0],
+					"position": [11, 2.5, 12.5],
+					"scale": 0.8
+				}
+			}
 		}
 	}
 }

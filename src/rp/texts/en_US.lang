@@ -7,6 +7,9 @@ lc:dt_item_group_guns_and_mags=Guns & Mags, etc. §7[SCP: Dystopia]§r
 lc:dt_item_group_scp=SCP(-related) §7[SCP: Dystopia]§r
 lc:dt_item_group_ammo=Ammo §7[SCP: Dystopia]§r
 
+dt.guide.equip_mag_on_offhand=Equip magazine on off-hand.
+dt.guide.still_reloading=Still reloading!
+
 tile.lc:dt_door1_v2.name=SCP Facility Door 1
 tile.lc:dt_door1_lvl1_v2.name=SCP Facility Door 1 (Level 1)
 tile.lc:dt_door1_lvl2_v2.name=SCP Facility Door 1 (Level 2)
