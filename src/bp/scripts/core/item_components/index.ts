@@ -9,3 +9,4 @@ import "./scp420j";
 import "./scp500";
 import "./scp714";
 import "./scp1023_arc";
+import "./scp5167_knife";
