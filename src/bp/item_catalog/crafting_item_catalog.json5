@@ -288,6 +288,7 @@
 							"lc:dt_m16_ammo",
 							"lc:dt_mp5k_ammo",
 							"lc:dt_p90_ammo",
+							"lc:dt_spas12_shell",
 							"lc:dt_dtrifle_ammo",
 						],
 					},
