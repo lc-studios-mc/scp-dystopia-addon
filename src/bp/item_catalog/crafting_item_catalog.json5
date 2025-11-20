@@ -219,7 +219,13 @@
 							icon: "lc:dt_ak_mag",
 							name: "lc:dt_item_group_guns_and_mags",
 						},
-						items: ["lc:dt_ak_mag", "lc:dt_glock_mag", "lc:dt_hig_mag", "lc:dt_flamethrower_fuel"],
+						items: [
+							"lc:dt_ak_mag",
+							"lc:dt_glock_mag",
+							"lc:dt_m16_mag",
+							"lc:dt_hig_mag",
+							"lc:dt_flamethrower_fuel",
+						],
 					},
 
 					{
