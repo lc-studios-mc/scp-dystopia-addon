@@ -280,10 +280,10 @@
 
 					{
 						group_identifier: {
-							icon: "lc:dt_dtrifle_ammo",
+							icon: "lc:dt_glock_ammo",
 							name: "lc:dt_item_group_ammo",
 						},
-						items: ["lc:dt_dtrifle_ammo"],
+						items: ["lc:dt_glock_ammo", "lc:dt_dtrifle_ammo"],
 					},
 				],
 			},
