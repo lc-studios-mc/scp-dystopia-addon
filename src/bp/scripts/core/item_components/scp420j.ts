@@ -27,7 +27,7 @@ mc.system.beforeEvents.startup.subscribe((e) => {
 			source.addEffect("nausea", 16 * mc.TicksPerSecond, { amplifier: 1 });
 
 			const random = Math.random();
-			if (random > 0.2) {
+			if (random > 0.4) {
 				source.onScreenDisplay.setActionBar("Aghhh... feeling good...");
 			} else {
 				source.addEffect("levitation", 10 * mc.TicksPerSecond, { amplifier: 0 });
