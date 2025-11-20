@@ -216,6 +216,13 @@
 
 					{
 						group_identifier: {
+							name: "minecraft:itemGroup.name.chestplate",
+						},
+						items: ["lc:dt_ballistic_vest"],
+					},
+
+					{
+						group_identifier: {
 							icon: "lc:dt_ak_mag",
 							name: "lc:dt_item_group_guns_and_mags",
 						},
