@@ -81,6 +81,9 @@
 			}
 		},
 		"component_groups": {},
-		"events": {}
+		"events": {
+			"scpdt:open": {},
+			"scpdt:close": {}
+		}
 	}
 }

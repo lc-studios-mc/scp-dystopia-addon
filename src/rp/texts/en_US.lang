@@ -7,6 +7,7 @@ lc:dt_item_group_guns_and_mags=Guns & Mags, etc. §7[SCP: Dystopia]§r
 lc:dt_item_group_scp=SCP(-related) §7[SCP: Dystopia]§r
 lc:dt_item_group_ammo=Ammo §7[SCP: Dystopia]§r
 
+dt.guide.not_enough_clearance=§cNot enough clearance level.
 dt.guide.equip_mag_on_offhand=Equip magazine on off-hand.
 dt.guide.still_reloading=Still reloading!
 dt.guide.blast_door_v2.block_broken_but_no_entity=§cBlast door block was destroyed, but could not find the entity to remove!

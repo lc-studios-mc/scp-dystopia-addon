@@ -1,3 +1,4 @@
+import { getEntityClearanceLevel } from "@/lib/clearance_level";
 import { getBlockCardinalDirection } from "@/lib/direction";
 import * as mc from "@minecraft/server";
 
@@ -49,9 +50,20 @@ mc.system.beforeEvents.startup.subscribe((e) => {
 		onPlayerBreak({ block, player }) {
 			onBreak(block, player);
 		},
-		onPlayerInteract({ block }) {
-			const clearanceLevel = Number(block.permutation.getState("scpdt:clearance_level"));
-			// TODO
+		onPlayerInteract({ block, dimension, player }) {
+			if (!player) return;
+
+			const playerClearanceLevel = Math.max(0, getEntityClearanceLevel(player));
+			const requiredClearanceLevel = Number(block.permutation.getState("scpdt:clearance_level"));
+
+			if (playerClearanceLevel < requiredClearanceLevel) {
+				player.onScreenDisplay.setActionBar({ translate: "dt.guide.not_enough_clearance" });
+				return;
+			}
+
+			if (requiredClearanceLevel > 0) {
+				dimension.playSound("scpdt.card_read", block.center());
+			}
 		},
 	});
 });
