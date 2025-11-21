@@ -1,5 +1,6 @@
 import { getEntityClearanceLevel } from "@/lib/clearance_level";
 import { getBlockCardinalDirection } from "@/lib/direction";
+import { isPlayerCreativeOrSpectator } from "@mcbe-toolbox-lc/sukuriputils/server";
 import * as mc from "@minecraft/server";
 
 type ComponentParams = {
@@ -52,7 +53,14 @@ mc.system.beforeEvents.startup.subscribe((e) => {
 			entity.setProperty("scpdt:clearance_level", params.clearanceLevel);
 			entity.setProperty("scpdt:is_rotated", shouldRotate);
 		},
-		onPlayerBreak({ block, player }) {
+		onPlayerBreak({ block, dimension, brokenBlockPermutation, player }) {
+			const shouldDropItem =
+				mc.world.gameRules.doTileDrops && player && !isPlayerCreativeOrSpectator(player);
+			if (shouldDropItem) {
+				const itemStackToDrop = new mc.ItemStack(brokenBlockPermutation.type.id, 1);
+				dimension.spawnItem(itemStackToDrop, block.center());
+			}
+
 			onBreak(block, player);
 		},
 		onPlayerInteract({ block, dimension, player }, arg1) {
