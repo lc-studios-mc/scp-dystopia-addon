@@ -12,18 +12,11 @@ const convert = (block: mc.Block, params: ComponentParams) => {
 
 	const statesString = createBlockStatesString({
 		"minecraft:cardinal_direction": dir,
+		"scpdt:clearance_level": params.clearanceLevel,
 	});
 
+	const newType = "lc:dt_blast_door_v2";
 	const location = vecarr.toArr3(block.location).join(" ");
-
-	let newType: string;
-	switch (params.clearanceLevel) {
-		default:
-		case 0:
-			newType = "lc:dt_blast_door_v2";
-			break;
-	}
-
 	const cmd = `setblock ${location} ${newType} [${statesString}]`;
 
 	block.dimension.runCommand(cmd);
