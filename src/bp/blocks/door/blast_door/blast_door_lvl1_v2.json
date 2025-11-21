@@ -33,6 +33,10 @@
 					}
 				}
 			},
+			"minecraft:destruction_particles": {
+				"texture": "dt_blast_door",
+				"particle_count": 200
+			},
 			"minecraft:collision_box": {
 				"origin": [-8, 0, -8],
 				"size": [16, 16, 16]
