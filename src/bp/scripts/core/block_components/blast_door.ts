@@ -2,6 +2,10 @@ import { getEntityClearanceLevel } from "@/lib/clearance_level";
 import { getBlockCardinalDirection } from "@/lib/direction";
 import * as mc from "@minecraft/server";
 
+type ComponentParams = {
+	clearanceLevel: number;
+};
+
 const onRemoveDoorEntity = (entity: mc.Entity): void => {
 	entity.setDynamicProperty("dontHandleRemoval", true);
 };
@@ -34,9 +38,10 @@ const onBreak = (block: mc.Block, player?: mc.Player): void => {
 
 mc.system.beforeEvents.startup.subscribe((e) => {
 	e.blockComponentRegistry.registerCustomComponent("scpdt:blast_door", {
-		onPlace({ block, dimension }) {
+		onPlace({ block, dimension }, arg1) {
+			const params = arg1.params as ComponentParams;
+
 			const dir = getBlockCardinalDirection(block.permutation);
-			const clearanceLevel = Number(block.permutation.getState("scpdt:clearance_level"));
 
 			const shouldRotate = dir === mc.Direction.East || dir === mc.Direction.West;
 			const entityYaw = shouldRotate ? 90 : 0;
@@ -44,17 +49,19 @@ mc.system.beforeEvents.startup.subscribe((e) => {
 			const entity = dimension.spawnEntity("lc:dt_blast_door_e", block.bottomCenter());
 			entity.setRotation({ x: 0, y: entityYaw });
 
-			entity.setProperty("scpdt:clearance_level", clearanceLevel);
+			entity.setProperty("scpdt:clearance_level", params.clearanceLevel);
 			entity.setProperty("scpdt:is_rotated", shouldRotate);
 		},
 		onPlayerBreak({ block, player }) {
 			onBreak(block, player);
 		},
-		onPlayerInteract({ block, dimension, player }) {
+		onPlayerInteract({ block, dimension, player }, arg1) {
+			const params = arg1.params as ComponentParams;
+
 			if (!player) return;
 
 			const playerClearanceLevel = Math.max(0, getEntityClearanceLevel(player));
-			const requiredClearanceLevel = Number(block.permutation.getState("scpdt:clearance_level"));
+			const requiredClearanceLevel = params.clearanceLevel;
 
 			if (playerClearanceLevel < requiredClearanceLevel) {
 				player.onScreenDisplay.setActionBar({ translate: "dt.guide.not_enough_clearance" });

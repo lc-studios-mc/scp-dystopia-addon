@@ -12,10 +12,31 @@ const convert = (block: mc.Block, params: ComponentParams) => {
 
 	const statesString = createBlockStatesString({
 		"minecraft:cardinal_direction": dir,
-		"scpdt:clearance_level": params.clearanceLevel,
 	});
 
-	const newType = "lc:dt_blast_door_v2";
+	let newType: string;
+	switch (params.clearanceLevel) {
+		default:
+		case 0:
+			newType = "lc:dt_blast_door_v2";
+			break;
+		case 1:
+			newType = "lc:dt_blast_door_lvl1_v2";
+			break;
+		case 2:
+			newType = "lc:dt_blast_door_lvl2_v2";
+			break;
+		case 3:
+			newType = "lc:dt_blast_door_lvl3_v2";
+			break;
+		case 4:
+			newType = "lc:dt_blast_door_lvl4_v2";
+			break;
+		case 5:
+			newType = "lc:dt_blast_door_lvl5_v2";
+			break;
+	}
+
 	const location = vecarr.toArr3(block.location).join(" ");
 	const cmd = `setblock ${location} ${newType} [${statesString}]`;
 
