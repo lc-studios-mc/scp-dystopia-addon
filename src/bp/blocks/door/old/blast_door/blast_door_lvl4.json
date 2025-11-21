@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lc:dt_blast_door_lvl4",
 			"menu_category": {
-				// "is_hidden_in_commands": true
+				"is_hidden_in_commands": true
 			},
 			"states": {
 				"facing:direction": [2, 3, 4, 5],
