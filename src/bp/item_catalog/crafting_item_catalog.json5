@@ -173,7 +173,7 @@
 							icon: "lc:dt_blast_door_v2",
 							name: "lc:dt_item_group_blast_doors",
 						},
-						items: ["lc:dt_blast_door_v2"],
+						items: ["lc:dt_blast_door_v2", "lc:dt_blast_door_lvl1_v2"],
 					},
 
 					{
