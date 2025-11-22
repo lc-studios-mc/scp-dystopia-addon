@@ -9,6 +9,7 @@ type ComponentParams = {
 
 const onRemoveDoorEntity = (entity: mc.Entity): void => {
 	entity.setDynamicProperty("dontHandleRemoval", true);
+	entity.runCommand("fill ^-2 ^2 ^ ^2 ^0 ^ air replace lc:dt_door_dummy");
 };
 
 const onBreak = (block: mc.Block, player?: mc.Player): void => {
