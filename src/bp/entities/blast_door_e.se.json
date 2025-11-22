@@ -82,8 +82,44 @@
 		},
 		"component_groups": {},
 		"events": {
-			"scpdt:open": {},
-			"scpdt:close": {}
+			"scpdt:open": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "enum_property",
+							"domain": "scpdt:door_state",
+							"value": "closed"
+						},
+						"set_property": {
+							"scpdt:door_state": "opening"
+						}
+					}
+				]
+			},
+			"scpdt:close": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "enum_property",
+							"domain": "scpdt:door_state",
+							"value": "opened"
+						},
+						"set_property": {
+							"scpdt:door_state": "closing"
+						}
+					}
+				]
+			},
+			"scpdt:on_opening_complete": {
+				"set_property": {
+					"scpdt:door_state": "opened"
+				}
+			},
+			"scpdt:on_closing_complete": {
+				"set_property": {
+					"scpdt:door_state": "closed"
+				}
+			}
 		}
 	}
 }
