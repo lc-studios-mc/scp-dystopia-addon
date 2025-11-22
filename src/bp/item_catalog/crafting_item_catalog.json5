@@ -212,6 +212,7 @@
 							"lc:dt_control_panel",
 							"lc:dt_coolant",
 							"lc:dt_data_bank",
+							"lc:dt_delivery_box",
 						],
 					},
 				],
