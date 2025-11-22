@@ -8,6 +8,7 @@ import "./cafeteria_chair";
 import "./camera";
 import "./catwalk_fence";
 import "./ceiling_pipe";
+import "./coffee_machine";
 import "./curve_block";
 import "./legacy_placement_state";
 import "./old_blast_door_conversion";
