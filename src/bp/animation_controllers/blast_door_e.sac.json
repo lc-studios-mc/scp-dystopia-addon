@@ -13,6 +13,7 @@
 					]
 				},
 				"closed": {
+					"on_entry": ["/fill ^-2 ^2 ^ ^2 ^0 ^ lc:dt_door_dummy keep"],
 					"transitions": [
 						{ "closing": "q.property('scpdt:door_state') == 'closing'" },
 						{ "opened": "q.property('scpdt:door_state') == 'opened'" },
@@ -28,6 +29,7 @@
 					]
 				},
 				"opened": {
+					"on_entry": ["/fill ^-1 ^2 ^ ^1 ^0 ^ air replace lc:dt_door_dummy"],
 					"transitions": [
 						{ "closed": "q.property('scpdt:door_state') == 'closed'" },
 						{ "closing": "q.property('scpdt:door_state') == 'closing'" },
