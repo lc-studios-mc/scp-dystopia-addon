@@ -6,6 +6,9 @@
 			"menu_category": {
 				"category": "construction"
 			},
+			"states": {
+				"lc:has_collision": [true, false]
+			},
 			"traits": {
 				"minecraft:placement_direction": {
 					"enabled_states": ["minecraft:cardinal_direction"],
@@ -37,10 +40,6 @@
 				"texture": "dt_blast_door",
 				"particle_count": 200
 			},
-			"minecraft:collision_box": {
-				"origin": [-8, 0, -8],
-				"size": [16, 16, 16]
-			},
 			"minecraft:selection_box": {
 				"origin": [-8, 0, -8],
 				"size": [16, 16, 16]
@@ -50,6 +49,23 @@
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 10
 			}
-		}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('lc:has_collision')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8, 0, -8],
+						"size": [16, 16, 16]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('lc:has_collision')",
+				"components": {
+					"minecraft:collision_box": false
+				}
+			}
+		]
 	}
 }

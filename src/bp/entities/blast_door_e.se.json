@@ -119,7 +119,9 @@
 				"set_property": {
 					"scpdt:door_state": "closed"
 				}
-			}
+			},
+			"scpdt:enable_block_collision": {},
+			"scpdt:disable_block_collision": {}
 		}
 	}
 }

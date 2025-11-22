@@ -90,6 +90,34 @@ mc.world.afterEvents.blockExplode.subscribe((e) => {
 	onBreak(e.block, player);
 });
 
+mc.world.afterEvents.dataDrivenEntityTrigger.subscribe(
+	(e) => {
+		const block = e.entity.dimension.getBlock(e.entity.location);
+		if (!block) return;
+		if (!block.getComponent("scpdt:blast_door")) return;
+
+		block.setPermutation(block.permutation.withState("lc:has_collision", true));
+	},
+	{
+		entityTypes: ["lc:dt_blast_door_e"],
+		eventTypes: ["scpdt:enable_block_collision"],
+	},
+);
+
+mc.world.afterEvents.dataDrivenEntityTrigger.subscribe(
+	(e) => {
+		const block = e.entity.dimension.getBlock(e.entity.location);
+		if (!block) return;
+		if (!block.getComponent("scpdt:blast_door")) return;
+
+		block.setPermutation(block.permutation.withState("lc:has_collision", false));
+	},
+	{
+		entityTypes: ["lc:dt_blast_door_e"],
+		eventTypes: ["scpdt:disable_block_collision"],
+	},
+);
+
 mc.world.afterEvents.entityDie.subscribe((e) => {
 	if (e.deadEntity.typeId !== "lc:dt_blast_door_e") return;
 
