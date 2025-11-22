@@ -1,6 +1,7 @@
 import "./air_conditioner";
 import "./alarm";
 import "./big_number_sign";
+import "./blast_door";
 import "./bomb_activator";
 import "./button";
 import "./cafeteria_chair";
@@ -9,5 +10,6 @@ import "./catwalk_fence";
 import "./ceiling_pipe";
 import "./curve_block";
 import "./legacy_placement_state";
+import "./old_blast_door_conversion";
 import "./old_door_conversion";
 import "./sliding_door";

@@ -170,6 +170,21 @@
 
 					{
 						group_identifier: {
+							icon: "lc:dt_blast_door_v2",
+							name: "lc:dt_item_group_blast_doors",
+						},
+						items: [
+							"lc:dt_blast_door_v2",
+							"lc:dt_blast_door_lvl1_v2",
+							"lc:dt_blast_door_lvl2_v2",
+							"lc:dt_blast_door_lvl3_v2",
+							"lc:dt_blast_door_lvl4_v2",
+							"lc:dt_blast_door_lvl5_v2",
+						],
+					},
+
+					{
+						group_identifier: {
 							icon: "lc:dt_air_conditioner",
 							name: "lc:dt_item_group_furni_decor",
 						},

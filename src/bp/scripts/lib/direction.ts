@@ -24,3 +24,22 @@ export const convertLegacyFacingDirectionToDir = (facingDirection?: number): mc.
 			return mc.Direction.West;
 	}
 };
+
+export const getBlockCardinalDirection = (
+	permutation: mc.BlockPermutation,
+): mc.Direction | undefined => {
+	const blockDir = permutation.getState("minecraft:cardinal_direction");
+
+	switch (blockDir) {
+		case "north":
+			return mc.Direction.North;
+		case "south":
+			return mc.Direction.South;
+		case "west":
+			return mc.Direction.West;
+		case "east":
+			return mc.Direction.East;
+	}
+
+	return undefined;
+};

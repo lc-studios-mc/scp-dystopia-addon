@@ -2,14 +2,24 @@ lc:dt_item_group_label_blocks=Labels §7[SCP: Dystopia]§r
 lc:dt_item_group_construction_blocks=Construction Blocks §7[SCP: Dystopia]§r
 lc:dt_item_group_curve_blocks=Curve Blocks §7[SCP: Dystopia]§r
 lc:dt_item_group_doors=Doors §7[SCP: Dystopia]§r
+lc:dt_item_group_blast_doors=Blast Doors §7[SCP: Dystopia]§r
 lc:dt_item_group_furni_decor=Furniture & Decoration §7[SCP: Dystopia]§r
 lc:dt_item_group_guns_and_mags=Guns & Mags, etc. §7[SCP: Dystopia]§r
 lc:dt_item_group_scp=SCP(-related) §7[SCP: Dystopia]§r
 lc:dt_item_group_ammo=Ammo §7[SCP: Dystopia]§r
 
+dt.guide.not_enough_clearance=§cNot enough clearance level.
 dt.guide.equip_mag_on_offhand=Equip magazine on off-hand.
 dt.guide.still_reloading=Still reloading!
+dt.guide.blast_door_v2.entity_not_found=§cCould not find the entity to remove!
+dt.guide.blast_door_v2.only_entity_and_no_block=§cBlast door entity is present, but could not find the block!
 
+tile.lc:dt_blast_door_v2.name=Blast Door
+tile.lc:dt_blast_door_lvl1_v2.name=Blast Door (Level 1)
+tile.lc:dt_blast_door_lvl2_v2.name=Blast Door (Level 2)
+tile.lc:dt_blast_door_lvl3_v2.name=Blast Door (Level 3)
+tile.lc:dt_blast_door_lvl4_v2.name=Blast Door (Level 4)
+tile.lc:dt_blast_door_lvl5_v2.name=Blast Door (Level 5)
 tile.lc:dt_door1_v2.name=SCP Facility Door 1
 tile.lc:dt_door1_lvl1_v2.name=SCP Facility Door 1 (Level 1)
 tile.lc:dt_door1_lvl2_v2.name=SCP Facility Door 1 (Level 2)
@@ -507,6 +517,8 @@ item.spawn_egg.entity.lc:dt_scp3199.name=Spawn SCP-3199 "Humans, Refuted" §7#dt
 entity.lc:dt_scp_redacted.name=[REDACTED]
 entity.lc:dt_scp1000.name=SCP-1000
 item.spawn_egg.entity.lc:dt_scp1000.name=Spawn SCP-1000 "Bigfoot" §7#dt_scp
+
+entity.lc:dt_blast_door_e.name=Blast Door
 
 ## New nameslots below
 
