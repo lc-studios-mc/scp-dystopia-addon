@@ -12,7 +12,7 @@ const onRemoveDoorEntity = (entity: mc.Entity): void => {
 	entity.runCommand("fill ^-2 ^2 ^ ^2 ^0 ^ air replace lc:dt_door_dummy");
 };
 
-const onBreak = (block: mc.Block, player?: mc.Player): void => {
+const getDoorEntityAtBlock = (block: mc.Block, player?: mc.Player): mc.Entity | undefined => {
 	const doorEntity = block.dimension.getEntities({
 		closest: 1,
 		type: "lc:dt_blast_door_e",
@@ -20,11 +20,15 @@ const onBreak = (block: mc.Block, player?: mc.Player): void => {
 		maxDistance: 0.3,
 	})[0];
 
-	if (!doorEntity) {
-		player?.sendMessage({ translate: "dt.guide.blast_door_v2.block_broken_but_no_entity" });
-		player?.playSound("scpdt.fart");
-		return;
-	}
+	if (doorEntity) return doorEntity;
+
+	player?.sendMessage({ translate: "dt.guide.blast_door_v2.entity_not_found" });
+	player?.playSound("scpdt.fart");
+};
+
+const onBreak = (block: mc.Block, player?: mc.Player): void => {
+	const doorEntity = getDoorEntityAtBlock(block, player);
+	if (!doorEntity) return;
 
 	mc.system.run(() => {
 		try {
@@ -69,6 +73,9 @@ mc.system.beforeEvents.startup.subscribe((e) => {
 
 			if (!player) return;
 
+			const doorEntity = getDoorEntityAtBlock(block, player);
+			if (!doorEntity) return;
+
 			const playerClearanceLevel = Math.max(0, getEntityClearanceLevel(player));
 			const requiredClearanceLevel = params.clearanceLevel;
 
@@ -79,6 +86,14 @@ mc.system.beforeEvents.startup.subscribe((e) => {
 
 			if (requiredClearanceLevel > 0) {
 				dimension.playSound("scpdt.card_read", block.center());
+			}
+
+			const currentDoorState = String(doorEntity.getProperty("scpdt:door_state"));
+
+			if (currentDoorState === "closed") {
+				doorEntity.triggerEvent("scpdt:open");
+			} else if (currentDoorState === "opened") {
+				doorEntity.triggerEvent("scpdt:close");
 			}
 		},
 	});
