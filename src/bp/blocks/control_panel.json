@@ -47,7 +47,6 @@
 			{
 				"condition": "q.block_state('facing:direction') == 3",
 				"components": {
-					"minecraft:light_dampening": 15,
 					"minecraft:transformation": { "rotation": [0, 180, 0] }
 				}
 			},
