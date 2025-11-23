@@ -217,6 +217,7 @@
 							"lc:dt_electrical_panel",
 							"lc:dt_experiment_tools",
 							"lc:dt_fire_extinguisher",
+							"lc:dt_floor_vent",
 						],
 					},
 				],
