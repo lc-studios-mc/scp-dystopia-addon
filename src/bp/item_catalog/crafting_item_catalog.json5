@@ -215,6 +215,7 @@
 							"lc:dt_delivery_box",
 							"lc:dt_desktop_display",
 							"lc:dt_electrical_panel",
+							"lc:dt_experiment_tools",
 						],
 					},
 				],
