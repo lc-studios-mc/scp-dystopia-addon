@@ -220,6 +220,7 @@
 							"lc:dt_floor_vent",
 							"lc:dt_hand_dryer",
 							"lc:dt_hang_lamp",
+							"lc:dt_heating",
 						],
 					},
 				],
