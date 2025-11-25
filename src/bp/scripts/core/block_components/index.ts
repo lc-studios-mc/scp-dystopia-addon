@@ -13,6 +13,7 @@ import "./curve_block";
 import "./desktop_display";
 import "./hand_dryer";
 import "./hang_lamp";
+import "./keycard_reader";
 import "./legacy_placement_state";
 import "./old_blast_door_conversion";
 import "./old_door_conversion";
