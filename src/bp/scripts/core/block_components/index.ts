@@ -15,6 +15,7 @@ import "./hand_dryer";
 import "./hang_lamp";
 import "./keycard_reader";
 import "./laptop";
+import "./living_bench";
 import "./legacy_placement_state";
 import "./old_blast_door_conversion";
 import "./old_door_conversion";
