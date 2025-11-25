@@ -229,6 +229,8 @@
 							"lc:dt_lab_monitor",
 							"lc:dt_ceiling_lamp_cover",
 							"lc:dt_laptop",
+							"lc:dt_light1_root",
+							"lc:dt_light1",
 						],
 					},
 				],
