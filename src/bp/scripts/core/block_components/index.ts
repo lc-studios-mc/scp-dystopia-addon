@@ -18,6 +18,7 @@ import "./laptop";
 import "./living_bench";
 import "./legacy_placement_state";
 import "./lunch_plate";
+import "./mine";
 import "./old_blast_door_conversion";
 import "./old_door_conversion";
 import "./sliding_door";
