@@ -1,16 +1,19 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.120",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lc:dt_light2",
-			"properties": {
+			"menu_category": {
+				"category": "construction"
+			},
+			"states": {
 				"facing:direction": [2, 3, 4, 5]
 			}
 		},
 		"components": {
-			"minecraft:creative_category": {
-				"group": "itemGroup.name.sandstone",
-				"category": "Construction"
+			"scpdt:legacy_placement_state": {
+				"facingDirectionState": "facing:direction",
+				"facingDirectionReverse": true
 			},
 			"minecraft:material_instances": {
 				"*": {
@@ -18,55 +21,41 @@
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:pick_collision": {
+			"minecraft:selection_box": {
 				"origin": [-3, 13, -8],
 				"size": [6, 3, 16]
 			},
-			"minecraft:entity_collision": false,
+			"minecraft:collision_box": false,
 			"minecraft:geometry": "geometry.dt_light2",
-			"minecraft:destroy_time": 1.6,
-			"minecraft:on_player_placing": {
-				"event": "placement_state"
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.6
 			},
-			"minecraft:map_color": "#3B3D94",
-			"minecraft:flammable": {
-				"flame_odds": 0,
-				"burn_odds": 0
-			},
-			"minecraft:block_light_emission": 1.0,
-			"minecraft:block_light_absorption": 0.0,
+			"minecraft:light_emission": 15,
 			"tag:lc:dystopiablock": {}
-		},
-		"events": {
-			"placement_state": {
-				"set_block_property": {
-					"facing:direction": "(query.cardinal_facing_2d)"
-				}
-			}
 		},
 		"permutations": [
 			{
-				"condition": "query.block_property('facing:direction') == 2",
+				"condition": "q.block_state('facing:direction') == 2",
 				"components": {
-					"minecraft:rotation": [0, 0, 0]
+					"minecraft:transformation": { "rotation": [0, 0, 0] }
 				}
 			},
 			{
-				"condition": "query.block_property('facing:direction') == 3",
+				"condition": "q.block_state('facing:direction') == 3",
 				"components": {
-					"minecraft:rotation": [0, 180, 0]
+					"minecraft:transformation": { "rotation": [0, 180, 0] }
 				}
 			},
 			{
-				"condition": "query.block_property('facing:direction') == 4",
+				"condition": "q.block_state('facing:direction') == 4",
 				"components": {
-					"minecraft:rotation": [0, 90, 0]
+					"minecraft:transformation": { "rotation": [0, 90, 0] }
 				}
 			},
 			{
-				"condition": "query.block_property('facing:direction') == 5",
+				"condition": "q.block_state('facing:direction') == 5",
 				"components": {
-					"minecraft:rotation": [0, 270, 0]
+					"minecraft:transformation": { "rotation": [0, 270, 0] }
 				}
 			}
 		]
