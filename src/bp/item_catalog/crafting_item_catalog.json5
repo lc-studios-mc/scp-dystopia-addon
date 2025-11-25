@@ -244,6 +244,7 @@
 							"lc:dt_mesh_catwalk",
 							"lc:dt_metal_crate",
 							"lc:dt_mine",
+							"lc:dt_mirror",
 						],
 					},
 				],
