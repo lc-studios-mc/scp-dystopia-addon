@@ -1,6 +1,8 @@
 import * as mc from "@minecraft/server";
 
 export const LEGACY_FACING_DIRECTION_INDEX = {
+	down: 0,
+	up: 1,
 	north: 2,
 	east: 5,
 	south: 3,
@@ -14,6 +16,10 @@ export const getLegacyFacingDirectionIndex = (
 export const convertLegacyFacingDirectionToDir = (facingDirection?: number): mc.Direction => {
 	switch (facingDirection) {
 		default:
+		case 0:
+			return mc.Direction.Down;
+		case 1:
+			return mc.Direction.Up;
 		case 2:
 			return mc.Direction.North;
 		case 5:

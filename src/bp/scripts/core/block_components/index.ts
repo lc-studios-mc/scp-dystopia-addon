@@ -22,4 +22,5 @@ import "./mine";
 import "./office_chair";
 import "./old_blast_door_conversion";
 import "./old_door_conversion";
+import "./pipe";
 import "./sliding_door";
