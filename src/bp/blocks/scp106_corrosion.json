@@ -1,16 +1,19 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.120",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lc:dt_scp106_corrosion",
-			"properties": {
+			"menu_category": {
+				"category": "items"
+			},
+			"states": {
 				"facing:direction": [2, 3, 4, 5]
 			}
 		},
 		"components": {
-			"minecraft:creative_category": {
-				"group": "itemGroup.name.sandstone",
-				"category": "Construction"
+			"scpdt:legacy_placement_state": {
+				"facingDirectionState": "facing:direction",
+				"facingDirectionReverse": true
 			},
 			"minecraft:material_instances": {
 				"*": {
@@ -18,25 +21,19 @@
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:pick_collision": {
+			"minecraft:selection_box": {
 				"origin": [-8, 0, -8],
 				"size": [16, 1, 16]
 			},
-			"minecraft:entity_collision": {
+			"minecraft:collision_box": {
 				"origin": [-8, 0, -8],
 				"size": [0, 0, 0]
 			},
 			"minecraft:loot": "loot_tables/blocks/empty.json",
 			"minecraft:geometry": "geometry.dt_scp106_corrosion",
-			"minecraft:destroy_time": 0.7,
-			"minecraft:map_color": "#3B3D94",
-			"minecraft:flammable": {
-				"flame_odds": 0,
-				"burn_odds": 0
-			},
-			"minecraft:block_light_emission": 0.0,
-			"minecraft:block_light_absorption": 0.3
-		},
-		"events": {}
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.7
+			}
+		}
 	}
 }
