@@ -3,6 +3,7 @@ import "./cups/cup_boyfriend";
 import "./cups/cup_coffee";
 import "./cups/cup_cola";
 import "./cups/cup_girlfriend";
+import "./cups/cup_gold";
 import "./gun/flamethrower";
 import "./lose_durability_on_dig";
 import "./medkit";
