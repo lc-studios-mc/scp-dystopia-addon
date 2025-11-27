@@ -6,6 +6,7 @@ import "./cups/cup_girlfriend";
 import "./cups/cup_gold";
 import "./cups/cup_iron";
 import "./cups/cup_me";
+import "./cups/cup_orange_juice";
 import "./gun/flamethrower";
 import "./lose_durability_on_dig";
 import "./medkit";
