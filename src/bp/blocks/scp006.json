@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "lc:dt_scp006",
 			"menu_category": {
-				"category": "construction"
+				"category": "items"
 			},
 			"states": {
 				"facing:direction": [2, 3, 4, 5]
