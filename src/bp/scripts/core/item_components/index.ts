@@ -1,3 +1,4 @@
+import "./cups/cup_amogus";
 import "./gun/flamethrower";
 import "./lose_durability_on_dig";
 import "./medkit";
