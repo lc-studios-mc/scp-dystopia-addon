@@ -256,6 +256,7 @@
 							"lc:dt_printer",
 							"lc:dt_rack1",
 							"lc:dt_radio_block",
+							"lc:dt_recycle_bin",
 						],
 					},
 				],
