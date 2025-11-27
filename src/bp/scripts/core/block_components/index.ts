@@ -25,4 +25,5 @@ import "./old_door_conversion";
 import "./pipe";
 import "./pizza_box";
 import "./rack";
+import "./radio_block";
 import "./sliding_door";
