@@ -357,6 +357,7 @@
 						},
 						items: [
 							"lc:dt_scp005",
+							"lc:dt_scp006",
 							"lc:dt_scp058_body_scrap",
 							"lc:dt_scp063",
 							"lc:dt_scp096_bag",
