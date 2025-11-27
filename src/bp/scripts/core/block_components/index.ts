@@ -26,4 +26,5 @@ import "./pipe";
 import "./pizza_box";
 import "./rack";
 import "./radio_block";
+import "./restroom_sign";
 import "./sliding_door";
