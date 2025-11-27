@@ -4,6 +4,7 @@ import "./cups/cup_coffee";
 import "./cups/cup_cola";
 import "./cups/cup_girlfriend";
 import "./cups/cup_gold";
+import "./cups/cup_iron";
 import "./gun/flamethrower";
 import "./lose_durability_on_dig";
 import "./medkit";
