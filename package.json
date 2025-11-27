@@ -11,7 +11,7 @@
 	},
 	"dependencies": {
 		"@mcbe-toolbox-lc/sukuriputils": "0.1.0-alpha.1",
-		"@mcbe-toolbox-lc/vecarr": "^0.1.0",
+		"@mcbe-toolbox-lc/vecarr": "^0.1.2",
 		"@minecraft/server": "2.3.0",
 		"@minecraft/server-ui": "2.0.0",
 		"gl-matrix": "^3.4.4"
