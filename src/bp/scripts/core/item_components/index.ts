@@ -8,6 +8,7 @@ import "./cups/cup_iron";
 import "./cups/cup_me";
 import "./cups/cup_orange_juice";
 import "./cups/cup_pizza";
+import "./cups/cup_water";
 import "./gun/flamethrower";
 import "./lose_durability_on_dig";
 import "./medkit";
