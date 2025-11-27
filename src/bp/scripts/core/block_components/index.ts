@@ -28,4 +28,5 @@ import "./rack";
 import "./radio_block";
 import "./restroom_sign";
 import "./scp006";
+import "./scp012";
 import "./sliding_door";

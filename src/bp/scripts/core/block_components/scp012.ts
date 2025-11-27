@@ -1,0 +1,74 @@
+import * as vecarr from "@mcbe-toolbox-lc/vecarr";
+import * as mc from "@minecraft/server";
+import { vec3 } from "gl-matrix";
+
+const LURE_DISTANCE = 8.0;
+const PAIN_DISTANCE = 3.0;
+
+mc.system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
+	blockComponentRegistry.registerCustomComponent("scpdt:scp012", {
+		onTick(arg) {
+			const center = arg.block.center();
+
+			const targetCandidates = arg.dimension.getEntities({
+				location: center,
+				maxDistance: LURE_DISTANCE,
+				excludeFamilies: ["inanimate", "gate_guardian"],
+				excludeTypes: ["minecraft:ender_dragon"],
+			});
+
+			for (const target of targetCandidates) {
+				const isPlayerAndCreativeOrSpectator =
+					target instanceof mc.Player &&
+					[mc.GameMode.Creative, mc.GameMode.Spectator].includes(target.getGameMode());
+
+				if (isPlayerAndCreativeOrSpectator) continue;
+
+				const dirToPlayerVec = vec3.sub(
+					vec3.create(),
+					vecarr.toArr3(target.getHeadLocation()),
+					vecarr.toArr3(center),
+				);
+				vec3.normalize(dirToPlayerVec, dirToPlayerVec);
+
+				const distance = vec3.distance(
+					vecarr.toArr3(target.getHeadLocation()),
+					vecarr.toArr3(center),
+				);
+
+				const raycastHit = arg.dimension.getBlockFromRay(center, vecarr.toObj3(dirToPlayerVec), {
+					includeLiquidBlocks: false,
+					includePassableBlocks: false,
+					excludeTypes: [arg.block.typeId],
+					maxDistance: distance,
+				});
+				const isBlocked = raycastHit !== undefined;
+
+				if (isBlocked) return;
+
+				const facingLocationVec = vec3.add(
+					vec3.create(),
+					vecarr.toArr3(arg.block.bottomCenter()),
+					vec3.fromValues(0, -1, 0),
+				);
+
+				target.teleport(target.location, {
+					facingLocation: vecarr.toObj3(facingLocationVec),
+				});
+
+				target.addEffect("blindness", 80);
+
+				if (distance < PAIN_DISTANCE) {
+					target.addEffect("wither", 40, { amplifier: 1 });
+				}
+
+				if (distance > PAIN_DISTANCE - 1) {
+					mc.system.runTimeout(() => {
+						const impulseVec = vec3.scale(vec3.create(), dirToPlayerVec, -0.4);
+						target.applyImpulse(vecarr.toObj3(impulseVec));
+					}, 1);
+				}
+			}
+		},
+	});
+});
