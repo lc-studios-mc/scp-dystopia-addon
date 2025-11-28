@@ -13,6 +13,8 @@ dt.guide.equip_mag_on_offhand=Equip magazine on off-hand.
 dt.guide.still_reloading=Still reloading!
 dt.guide.blast_door_v2.entity_not_found=§cCould not find the entity to remove!
 dt.guide.blast_door_v2.only_entity_and_no_block=§cBlast door entity is present, but could not find the block!
+dt.guide.scp294.coin_required=§cCoin required
+dt.guide.scp294.empty_cup_required_or_cycle=§cEmpty cup required (also Sneak+Interact to cycle word)
 
 tile.lc:dt_blast_door_v2.name=Blast Door
 tile.lc:dt_blast_door_lvl1_v2.name=Blast Door (Level 1)
