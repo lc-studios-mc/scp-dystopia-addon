@@ -60,7 +60,8 @@
 					"definition_event": {
 						"affectProjectile": true,
 						"eventTrigger": {}
-					}
+					},
+					"remove_on_hit": {}
 				},
 				"hit_sound": "gun.hit",
 				"power": 1.24,
