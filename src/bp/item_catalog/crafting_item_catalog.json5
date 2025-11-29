@@ -326,6 +326,13 @@
 
 					{
 						group_identifier: {
+							name: "minecraft:itemGroup.name.boots",
+						},
+						items: ["lc:dt_tro_boots"],
+					},
+
+					{
+						group_identifier: {
 							icon: "lc:dt_ak",
 							name: "lc:dt_item_group_guns_and_mags",
 						},
