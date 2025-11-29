@@ -293,7 +293,7 @@
 						group_identifier: {
 							name: "minecraft:itemGroup.name.chestplate",
 						},
-						items: ["lc:dt_ballistic_vest"],
+						items: ["lc:dt_ballistic_vest", "lc:dt_ci_chestplate"],
 					},
 
 					{
