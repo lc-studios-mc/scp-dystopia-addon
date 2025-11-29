@@ -14,7 +14,8 @@
 		"@mcbe-toolbox-lc/vecarr": "^0.1.2",
 		"@minecraft/server": "2.3.0",
 		"@minecraft/server-ui": "2.0.0",
-		"gl-matrix": "^3.4.4"
+		"gl-matrix": "^3.4.4",
+		"mitt": "^3.0.1"
 	},
 	"devDependencies": {
 		"@mcbe-toolbox-lc/builder": "^0.1.0",
