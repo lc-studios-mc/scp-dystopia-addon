@@ -286,7 +286,12 @@
 						group_identifier: {
 							name: "minecraft:itemGroup.name.helmet",
 						},
-						items: ["lc:dt_ci_helmet", "lc:dt_epsilon11_helmet", "lc:dt_beenie"],
+						items: [
+							"lc:dt_ci_helmet",
+							"lc:dt_epsilon11_helmet",
+							"lc:dt_eta10_helmet",
+							"lc:dt_beenie",
+						],
 					},
 
 					{
