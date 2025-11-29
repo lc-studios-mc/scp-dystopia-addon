@@ -300,7 +300,7 @@
 						group_identifier: {
 							name: "minecraft:itemGroup.name.leggings",
 						},
-						items: ["lc:dt_ci_leggings"],
+						items: ["lc:dt_classd_pants", "lc:dt_ci_leggings"],
 					},
 
 					{
