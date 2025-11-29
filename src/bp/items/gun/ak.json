@@ -8,6 +8,7 @@
 			}
 		},
 		"components": {
+			"scpdt:dont_damage_durability_on_hit": {},
 			"scpdt:ak": {},
 			"minecraft:use_modifiers": {
 				"movement_modifier": 0.5,
