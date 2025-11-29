@@ -146,7 +146,12 @@
 		"scpdt.ak.shot": {
 			"category": "hostile",
 			"max_distance": 40.0,
-			"sounds": ["sounds/scpdt_misc/ak/shoot"]
+			"sounds": [
+				{
+					"name": "sounds/scpdt_misc/ak/shoot",
+					"volume": 0.56
+				}
+			]
 		},
 		"scpdt.ak.reload": {
 			"category": "music",
