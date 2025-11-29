@@ -284,6 +284,13 @@
 
 					{
 						group_identifier: {
+							name: "minecraft:itemGroup.name.helmet",
+						},
+						items: ["lc:dt_beenie"],
+					},
+
+					{
+						group_identifier: {
 							name: "minecraft:itemGroup.name.chestplate",
 						},
 						items: ["lc:dt_ballistic_vest"],
