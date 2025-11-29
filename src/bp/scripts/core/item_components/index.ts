@@ -11,6 +11,7 @@ import "./cups/cup_pizza";
 import "./cups/cup_water";
 import "./gun/ak";
 import "./gun/flamethrower";
+import "./dont_damage_durability_on_hit";
 import "./lose_durability_on_dig";
 import "./medkit";
 import "./morphine_syringe";
