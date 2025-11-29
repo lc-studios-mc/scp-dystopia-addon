@@ -1,37 +1,32 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.120",
 	"minecraft:item": {
 		"description": {
 			"identifier": "lc:dt_japanese_schoolgirl_skirt",
-			"category": "Equipment"
+			"menu_category": {
+				"category": "equipment"
+			}
 		},
 		"components": {
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.leggings"
-			},
 			"minecraft:max_stack_size": 1,
-			"minecraft:icon": {
-				"texture": "dt_skirt_icon"
-			},
+			"minecraft:icon": "dt_skirt_icon",
 			"minecraft:durability": {
-				"max_durability": 100,
+				"max_durability": 140,
 				"damage_chance": {
-					"min": 7,
-					"max": 9
+					"min": 0,
+					"max": 100
 				}
-			},
-			"minecraft:armor": {
-				"protection": 1
 			},
 			"minecraft:enchantable": {
 				"slot": "armor_legs",
-				"value": 10
+				"value": 69
 			},
 			"minecraft:wearable": {
-				"slot": "slot.armor.legs"
+				"slot": "slot.armor.legs",
+				"protection": 5
 			},
 			"minecraft:display_name": {
-				"value": "Schoolgirl Skirt"
+				"value": "School Skirt"
 			}
 		}
 	}
