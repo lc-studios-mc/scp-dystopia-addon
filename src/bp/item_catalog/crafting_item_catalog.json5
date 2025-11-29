@@ -286,21 +286,26 @@
 						group_identifier: {
 							name: "minecraft:itemGroup.name.helmet",
 						},
-						items: ["lc:dt_beenie", "lc:dt_ci_helmet"],
+						items: ["lc:dt_ci_helmet", "lc:dt_beenie"],
 					},
 
 					{
 						group_identifier: {
 							name: "minecraft:itemGroup.name.chestplate",
 						},
-						items: ["lc:dt_classd_shirt", "lc:dt_ballistic_vest", "lc:dt_ci_chestplate"],
+						items: [
+							"lc:dt_ci_chestplate",
+							"lc:dt_epsilon11_chestplate",
+							"lc:dt_classd_shirt",
+							"lc:dt_ballistic_vest",
+						],
 					},
 
 					{
 						group_identifier: {
 							name: "minecraft:itemGroup.name.leggings",
 						},
-						items: ["lc:dt_classd_pants", "lc:dt_ci_leggings"],
+						items: ["lc:dt_ci_leggings", "lc:dt_classd_pants"],
 					},
 
 					{
