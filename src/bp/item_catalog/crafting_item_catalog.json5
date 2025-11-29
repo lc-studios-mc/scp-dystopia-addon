@@ -298,6 +298,13 @@
 
 					{
 						group_identifier: {
+							name: "minecraft:itemGroup.name.leggings",
+						},
+						items: ["lc:dt_ci_leggings"],
+					},
+
+					{
+						group_identifier: {
 							icon: "lc:dt_ak",
 							name: "lc:dt_item_group_guns_and_mags",
 						},
