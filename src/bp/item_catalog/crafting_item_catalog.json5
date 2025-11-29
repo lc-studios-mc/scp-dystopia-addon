@@ -296,6 +296,7 @@
 						items: [
 							"lc:dt_ci_chestplate",
 							"lc:dt_epsilon11_chestplate",
+							"lc:dt_eta10_chestplate",
 							"lc:dt_classd_shirt",
 							"lc:dt_ballistic_vest",
 						],
