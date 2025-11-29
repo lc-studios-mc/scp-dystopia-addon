@@ -291,10 +291,11 @@
 
 					{
 						group_identifier: {
-							icon: "lc:dt_ak_mag",
+							icon: "lc:dt_ak",
 							name: "lc:dt_item_group_guns_and_mags",
 						},
 						items: [
+							"lc:dt_ak",
 							"lc:dt_ak_mag",
 							"lc:dt_glock_mag",
 							"lc:dt_m16_mag",
