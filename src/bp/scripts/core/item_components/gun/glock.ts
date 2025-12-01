@@ -7,6 +7,7 @@ const componentNameEmpty = "scpdt:glock_empty";
 const itemType = "lc:dt_glock";
 const emptyItemType = "lc:dt_glock_empty";
 const magItemType = "lc:dt_glock_mag";
+const emptyMagItemType = "lc:dt_glock_mag_empty";
 const bulletTypeUncertain = "lc:dt_glock_bullet_player_uncertain";
 const bulletTypeNormal = "lc:dt_glock_bullet_player";
 const bulletTypeSneak = "lc:dt_glock_bullet_player_sneak";
@@ -95,7 +96,7 @@ mc.system.beforeEvents.startup.subscribe((e) => {
 				return;
 			}
 
-			equippable.setEquipment(mc.EquipmentSlot.Offhand, undefined);
+			equippable.setEquipment(mc.EquipmentSlot.Offhand, new mc.ItemStack(emptyMagItemType, 1));
 
 			durability.damage++;
 			equippable.setEquipment(mc.EquipmentSlot.Mainhand, itemStack);
