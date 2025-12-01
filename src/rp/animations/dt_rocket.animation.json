@@ -2,14 +2,10 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"animation.dt_rocket.fly": {
-			"loop": true,
-			"animation_length": 0.4,
+			"loop": "hold_on_last_frame",
 			"bones": {
 				"rocket": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.4": [0, 360, 0]
-					}
+					"rotation": ["-q.target_x_rotation", "-q.target_y_rotation", 0]
 				}
 			}
 		}
