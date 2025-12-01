@@ -13,6 +13,7 @@ import "./gun/ak";
 import "./gun/dystopia_rifle";
 import "./gun/flamethrower";
 import "./gun/glock";
+import "./gun/high_intensity_gun";
 import "./dont_damage_durability_on_hit";
 import "./lose_durability_on_dig";
 import "./medkit";

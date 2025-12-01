@@ -349,6 +349,7 @@
 							"lc:dt_p90_mag",
 							"lc:dt_scar_mag",
 							"lc:dt_spas12_shellbox",
+							"lc:dt_high_intensity_gun",
 							"lc:dt_hig_mag",
 							"lc:dt_rpg_rocket",
 							"lc:dt_flamethrower",
