@@ -442,7 +442,7 @@
 			"sounds": [
 				{
 					"name": "sounds/scpdt_misc/mp5a3/shot",
-					"volume": 1.0
+					"volume": 0.4
 				}
 			]
 		},
@@ -451,7 +451,7 @@
 			"sounds": [
 				{
 					"name": "sounds/scpdt_misc/mp5a3/reload",
-					"volume": 1.2
+					"volume": 1.0
 				}
 			]
 		},
