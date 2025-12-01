@@ -76,7 +76,12 @@
 		"scpdt.m16.shot": {
 			"category": "neutral",
 			"max_distance": 19.0,
-			"sounds": ["sounds/scpdt_misc/m16_shot"]
+			"sounds": [
+				{
+					"name": "sounds/scpdt_misc/m16_shot",
+					"volume": 0.5
+				}
+			]
 		},
 		"scpdt.m16.reload": {
 			"category": "music",
