@@ -504,7 +504,7 @@
 			"sounds": [
 				{
 					"name": "sounds/scpdt_misc/scar/shot",
-					"volume": 1.2
+					"volume": 0.45
 				}
 			]
 		},

@@ -21,6 +21,7 @@ import "./gun/mp5k";
 import "./gun/mp7a1";
 import "./gun/p90";
 import "./gun/rocket_launcher";
+import "./gun/scar";
 import "./dont_damage_durability_on_hit";
 import "./lose_durability_on_dig";
 import "./medkit";
