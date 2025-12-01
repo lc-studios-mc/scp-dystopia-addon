@@ -18,6 +18,7 @@ import "./gun/m4a1";
 import "./gun/m16";
 import "./gun/mp5a3";
 import "./gun/mp5k";
+import "./gun/mp7a1";
 import "./dont_damage_durability_on_hit";
 import "./lose_durability_on_dig";
 import "./medkit";
