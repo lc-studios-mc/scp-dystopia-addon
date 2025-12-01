@@ -10,6 +10,7 @@ lc:dt_item_group_ammo=Ammo §7[SCP: Dystopia]§r
 
 dt.guide.not_enough_clearance=§cNot enough clearance level.
 dt.guide.equip_mag_on_offhand=Equip magazine on off-hand.
+dt.guide.equip_ammo_on_offhand=Equip ammo on off-hand.
 dt.guide.still_reloading=Still reloading!
 dt.guide.blast_door_v2.entity_not_found=§cCould not find the entity to remove!
 dt.guide.blast_door_v2.only_entity_and_no_block=§cBlast door entity is present, but could not find the block!

@@ -340,6 +340,7 @@
 						items: [
 							"lc:dt_ak",
 							"lc:dt_ak_mag",
+							"lc:dt_dystopia_rifle",
 							"lc:dt_glock_mag",
 							"lc:dt_m16_mag",
 							"lc:dt_mp5_mag",
