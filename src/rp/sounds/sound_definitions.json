@@ -67,7 +67,12 @@
 		"scpdt.hk_mp5.shot": {
 			"category": "neutral",
 			"max_distance": 15.0,
-			"sounds": ["sounds/scpdt_misc/hk_mp5_shot"]
+			"sounds": [
+				{
+					"name": "sounds/scpdt_misc/hk_mp5_shot",
+					"volume": 0.5
+				}
+			]
 		},
 		"scpdt.mp5k.reload": {
 			"category": "music",
