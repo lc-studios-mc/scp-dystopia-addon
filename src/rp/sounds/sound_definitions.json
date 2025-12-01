@@ -93,7 +93,7 @@
 			"sounds": [
 				{
 					"name": "sounds/scpdt_misc/glock_shot",
-					"volume": 1.25
+					"volume": 0.3
 				}
 			]
 		},
@@ -102,7 +102,7 @@
 			"sounds": [
 				{
 					"name": "sounds/scpdt_misc/glock/reload",
-					"volume": 1.08
+					"volume": 0.9
 				}
 			]
 		},
