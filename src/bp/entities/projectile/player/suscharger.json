@@ -83,7 +83,8 @@
 				"hit_sound": "gun.hit",
 				"power": 1.25,
 				"gravity": 0.0,
-				"inertia": 2.5,
+				"inertia": 1.0,
+				"liquid_inertia": 1.0,
 				"uncertaintyBase": 6.5,
 				"uncertaintyMultiplier": 1.9,
 				"anchor": 1,
@@ -94,7 +95,7 @@
 			"minecraft:physics": {},
 			"minecraft:timer": {
 				"looping": false,
-				"time": 0.3,
+				"time": 0.7,
 				"time_down_event": {
 					"event": "minecraft:start_despawn"
 				}

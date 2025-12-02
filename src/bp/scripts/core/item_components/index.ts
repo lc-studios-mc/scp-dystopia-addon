@@ -24,6 +24,7 @@ import "./gun/rocket_launcher";
 import "./gun/scar";
 import "./gun/scp5167_cannon";
 import "./gun/spas12";
+import "./gun/suscharger";
 import "./dont_damage_durability_on_hit";
 import "./lose_durability_on_dig";
 import "./medkit";
