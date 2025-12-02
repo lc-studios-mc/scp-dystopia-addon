@@ -23,6 +23,7 @@ import "./gun/p90";
 import "./gun/rocket_launcher";
 import "./gun/scar";
 import "./gun/scp5167_cannon";
+import "./gun/spas12";
 import "./dont_damage_durability_on_hit";
 import "./lose_durability_on_dig";
 import "./medkit";
