@@ -1280,7 +1280,12 @@
 		"scpdt.scp5167_dragon.shot": {
 			"category": "hostile",
 			"max_distance": 20.0,
-			"sounds": ["sounds/scpmobs/scp5167_boss/death"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/death",
+					"volume": 0.08
+				}
+			]
 		},
 		"scpdt.scp610.idle": {
 			"category": "hostile",
