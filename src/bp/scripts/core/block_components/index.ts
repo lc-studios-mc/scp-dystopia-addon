@@ -34,4 +34,5 @@ import "./scp294";
 import "./scp330";
 import "./scp458_pizza_box";
 import "./scp914";
+import "./scp1074";
 import "./sliding_door";
