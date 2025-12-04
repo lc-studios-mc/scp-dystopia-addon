@@ -276,6 +276,7 @@
 							"lc:dt_valve",
 							"lc:dt_warehouse_rack",
 							"lc:dt_water_dispenser",
+							"lc:dt_weapon_crate_openable",
 						],
 					},
 				],

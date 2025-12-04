@@ -45,3 +45,4 @@ import "./tissue_box";
 import "./toilet";
 import "./towel";
 import "./warehouse_rack";
+import "./weapon_crate_openable";
