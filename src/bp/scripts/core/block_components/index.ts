@@ -39,3 +39,4 @@ import "./server_rack";
 import "./sink";
 import "./sliding_door";
 import "./stand_light";
+import "./table2";
