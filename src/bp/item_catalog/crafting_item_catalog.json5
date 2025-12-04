@@ -261,6 +261,7 @@
 							"lc:dt_scattered_documents",
 							"lc:dt_scp_logo",
 							"lc:dt_server_rack",
+							"lc:dt_sink",
 						],
 					},
 				],
