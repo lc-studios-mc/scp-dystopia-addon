@@ -44,3 +44,4 @@ import "./tesla_shock_block";
 import "./tissue_box";
 import "./toilet";
 import "./towel";
+import "./warehouse_rack";
