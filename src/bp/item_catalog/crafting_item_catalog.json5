@@ -278,6 +278,7 @@
 							"lc:dt_water_dispenser",
 							"lc:dt_weapon_crate",
 							"lc:dt_weapon_crate_openable",
+							"lc:dt_wet_floor_sign",
 						],
 					},
 				],
