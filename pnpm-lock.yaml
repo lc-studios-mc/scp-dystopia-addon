@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@mcbe-toolbox-lc/sukuriputils':
-        specifier: 0.1.0-alpha.2
-        version: 0.1.0-alpha.2(@minecraft/server@2.3.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.21.114))
+        specifier: ^0.2.0
+        version: 0.2.0(@minecraft/server@2.3.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.21.114))
       '@mcbe-toolbox-lc/vecarr':
         specifier: ^0.1.3
         version: 0.1.3
@@ -223,8 +223,8 @@ packages:
     resolution: {integrity: sha512-3uFoAvf5lZaiR/d/abJ0gb9S4WtkQVc9j9BANpNwlNAYz1EXELYr8UxPyvdfp4FA4xG9ta45/jk3/7ZXQch0nQ==}
     engines: {node: '>= 22'}
 
-  '@mcbe-toolbox-lc/sukuriputils@0.1.0-alpha.2':
-    resolution: {integrity: sha512-XFjVsPAFJBbZCibNCxwrtqPb1Xe0S2uORUU3I5qJQnmOFmMUksIsnLYPE9L8RkbfBYkaY6zbf5hMGq6SQ+HJZQ==}
+  '@mcbe-toolbox-lc/sukuriputils@0.2.0':
+    resolution: {integrity: sha512-Dx7VhArtdUtmG+BIhTF6BZwv7QPz4t/DV0GqxUHwfL22qR9JjhFpXL+UkbtqyaBvwpkIrGO51L1VYuLU05icrA==}
     peerDependencies:
       '@minecraft/server': ^2.3.0
 
@@ -906,7 +906,7 @@ snapshots:
       - bare-abort-controller
       - react-native-b4a
 
-  '@mcbe-toolbox-lc/sukuriputils@0.1.0-alpha.2(@minecraft/server@2.3.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.21.114))':
+  '@mcbe-toolbox-lc/sukuriputils@0.2.0(@minecraft/server@2.3.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.21.114))':
     dependencies:
       '@minecraft/server': 2.3.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.21.114)
 
