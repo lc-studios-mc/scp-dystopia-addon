@@ -38,3 +38,4 @@ import "./scp1074";
 import "./server_rack";
 import "./sink";
 import "./sliding_door";
+import "./stand_light";

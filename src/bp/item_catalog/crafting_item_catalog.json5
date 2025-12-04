@@ -263,6 +263,7 @@
 							"lc:dt_server_rack",
 							"lc:dt_sink",
 							"lc:dt_speaker",
+							"lc:dt_stand_light",
 						],
 					},
 				],
