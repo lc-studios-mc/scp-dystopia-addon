@@ -262,6 +262,7 @@
 							"lc:dt_scp_logo",
 							"lc:dt_server_rack",
 							"lc:dt_sink",
+							"lc:dt_speaker",
 						],
 					},
 				],
