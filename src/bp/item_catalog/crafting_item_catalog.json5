@@ -304,6 +304,14 @@
 							"lc:dt_scream_sound_loader",
 						],
 					},
+
+					{
+						group_identifier: {
+							icon: "lc:dt_scp049_plush",
+							name: "lc:dt_item_group_plushes",
+						},
+						items: ["lc:dt_scp049_plush"],
+					},
 				],
 			},
 
