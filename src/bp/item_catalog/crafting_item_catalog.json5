@@ -310,7 +310,7 @@
 							icon: "lc:dt_scp049_plush",
 							name: "lc:dt_item_group_plushes",
 						},
-						items: ["lc:dt_scp049_plush"],
+						items: ["lc:dt_scp049_plush", "lc:dt_scp106_plush"],
 					},
 				],
 			},
