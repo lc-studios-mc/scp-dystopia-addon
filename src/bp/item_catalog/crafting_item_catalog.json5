@@ -285,6 +285,19 @@
 							"lc:dt_wood_table",
 						],
 					},
+
+					{
+						group_identifier: {
+							icon: "lc:dt_intercom_general",
+							name: "lc:dt_item_group_intercom",
+						},
+						items: [
+							"lc:dt_intercom_general",
+							"lc:dt_intercom_report",
+							"lc:dt_intercom_report_all",
+							"lc:dt_intercom_breach",
+						],
+					},
 				],
 			},
 
