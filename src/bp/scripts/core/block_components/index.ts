@@ -48,6 +48,7 @@ import "./tissue_box";
 import "./toilet";
 import "./towel";
 import "./wall_image";
+import "./wall_sign";
 import "./warehouse_rack";
 import "./weapon_crate_openable";
 import "./wood_chair";

@@ -296,7 +296,7 @@
 							icon: "lc:dt_poster",
 							name: "lc:dt_item_group_posters_and_wall_signs",
 						},
-						items: ["lc:dt_poster", "lc:dt_wall_image"],
+						items: ["lc:dt_poster", "lc:dt_wall_image", "lc:dt_wall_sign"],
 					},
 
 					{
