@@ -47,6 +47,7 @@ import "./tesla_shock_block";
 import "./tissue_box";
 import "./toilet";
 import "./towel";
+import "./wall_image";
 import "./warehouse_rack";
 import "./weapon_crate_openable";
 import "./wood_chair";
