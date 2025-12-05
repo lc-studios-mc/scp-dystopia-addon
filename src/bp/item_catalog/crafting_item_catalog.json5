@@ -264,7 +264,6 @@
 							"lc:dt_recycle_bin",
 							"lc:dt_restroom_sign",
 							"lc:dt_scattered_documents",
-							"lc:dt_scp_logo",
 							"lc:dt_server_rack",
 							"lc:dt_sink",
 							"lc:dt_speaker",
@@ -296,7 +295,7 @@
 							icon: "lc:dt_poster",
 							name: "lc:dt_item_group_posters_and_wall_signs",
 						},
-						items: ["lc:dt_poster", "lc:dt_wall_image", "lc:dt_wall_sign"],
+						items: ["lc:dt_poster", "lc:dt_wall_image", "lc:dt_wall_sign", "lc:dt_scp_logo"],
 					},
 
 					{
