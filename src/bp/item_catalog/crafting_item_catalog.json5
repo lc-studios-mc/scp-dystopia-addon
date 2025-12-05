@@ -296,6 +296,7 @@
 							"lc:dt_intercom_report",
 							"lc:dt_intercom_report_all",
 							"lc:dt_intercom_breach",
+							"lc:dt_scream_sound_loader",
 						],
 					},
 				],

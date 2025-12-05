@@ -407,7 +407,7 @@
 		},
 		"scpdt.scream_loader.scream": {
 			"category": "neutral",
-			"max_distance": 20.0,
+			"max_distance": 60.0,
 			"sounds": [
 				{
 					"name": "sounds/intercom/scream/femurbreaker",
@@ -416,18 +416,8 @@
 				},
 				{
 					"name": "sounds/intercom/scream/scream_meme",
-					"volume": 1.1,
+					"volume": 1.0,
 					"weight": 9
-				}
-			]
-		},
-		"scpdt.scream_loader.scp106_spawn": {
-			"category": "neutral",
-			"max_distance": 20.0,
-			"sounds": [
-				{
-					"name": "sounds/intercom/scream/scp106_spawn",
-					"volume": 1.13
 				}
 			]
 		},
