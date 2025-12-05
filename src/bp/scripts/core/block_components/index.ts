@@ -25,6 +25,7 @@ import "./old_blast_door_conversion";
 import "./old_door_conversion";
 import "./pipe";
 import "./pizza_box";
+import "./poster";
 import "./rack";
 import "./radio_block";
 import "./restroom_sign";

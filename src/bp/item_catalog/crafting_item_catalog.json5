@@ -293,6 +293,14 @@
 
 					{
 						group_identifier: {
+							icon: "lc:dt_poster",
+							name: "lc:dt_item_group_posters_and_wall_signs",
+						},
+						items: ["lc:dt_poster"],
+					},
+
+					{
+						group_identifier: {
 							icon: "lc:dt_intercom_general",
 							name: "lc:dt_item_group_intercom",
 						},
