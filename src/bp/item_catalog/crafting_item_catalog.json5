@@ -121,6 +121,7 @@
 							"lc:dt_hcz_wall3",
 							"lc:dt_pd_bedrock",
 							"lc:dt_pd_block",
+							"lc:dt_pd_block2",
 						],
 					},
 
