@@ -1,8 +1,0 @@
-[ SCP: Dystopia v1.8.1 ]
-
-Added/Changed: Removed CI voicelines.
-Added/Changed: Better pack description.
-
-Fix/Improvement: AK's recoil is now not very high.
-Fix/Improvement: Flamethrower will no longer give you empty glock.
-Fix/Improvement: MP7's melee damage is the same when loaded and when it's empty.
