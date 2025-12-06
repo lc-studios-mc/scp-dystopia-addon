@@ -33,6 +33,7 @@ import "./scp006";
 import "./scp012";
 import "./scp079";
 import "./scp1074";
+import "./scp143";
 import "./scp294";
 import "./scp330";
 import "./scp458_pizza_box";

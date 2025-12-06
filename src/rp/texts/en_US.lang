@@ -8,8 +8,9 @@ lc:dt_item_group_posters_and_wall_signs=Posters & Wall Signs §7[SCP: Dystopia]�
 lc:dt_item_group_intercom=Intercom Blocks §7[SCP: Dystopia]§r
 lc:dt_item_group_plushes=Plushies §7[SCP: Dystopia]§r
 lc:dt_item_group_guns_and_mags=Guns & Mags, etc. §7[SCP: Dystopia]§r
-lc:dt_item_group_scp=SCP(-related) §7[SCP: Dystopia]§r
+lc:dt_item_group_scp=Most SCP stuff §7[SCP: Dystopia]§r
 lc:dt_item_group_ammo=Ammo §7[SCP: Dystopia]§r
+lc:dt_item_group_scp143=SCP-143 §7[SCP: Dystopia]§r
 
 dt.guide.not_enough_clearance=§cNot enough clearance level.
 dt.guide.equip_mag_on_offhand=Equip magazine on off-hand.

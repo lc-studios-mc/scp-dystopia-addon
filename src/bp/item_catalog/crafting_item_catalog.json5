@@ -491,7 +491,6 @@
 							"lc:dt_scp096_bag",
 							"lc:dt_scp096_picture",
 							"lc:dt_scp106_corrosion",
-							"lc:dt_scp143_sapling_placer",
 							"lc:dt_scp207",
 							"lc:dt_scp268",
 							"lc:dt_scp294",
@@ -537,6 +536,14 @@
 				groups: [
 					{
 						items: ["lc:dt_scpdystopia_orb", "lc:dt_enhanced_scpdystopia_orb"],
+					},
+
+					{
+						group_identifier: {
+							icon: "lc:dt_scp143_sapling_placer",
+							name: "lc:dt_item_group_scp143",
+						},
+						items: ["lc:dt_scp143_sapling_placer", "lc:dt_scp143_log", "lc:dt_scp143_leaves"],
 					},
 				],
 			},
