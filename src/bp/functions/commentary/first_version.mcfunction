@@ -1,1 +1,0 @@
-summon lc:dt_commentary ~~~ commentary:first_version
