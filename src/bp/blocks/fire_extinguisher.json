@@ -23,11 +23,11 @@
 			},
 			"minecraft:selection_box": {
 				"origin": [-5, 5, -8],
-				"size": [10, 16, 8]
+				"size": [10, 11, 8]
 			},
 			"minecraft:collision_box": {
 				"origin": [-5, 5, -8],
-				"size": [10, 16, 8]
+				"size": [10, 11, 8]
 			},
 			"minecraft:geometry": "geometry.dt_fire_extinguisher",
 			"minecraft:destructible_by_mining": {
