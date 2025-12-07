@@ -38,24 +38,6 @@
 			"minecraft:light_dampening": 2,
 			"tag:lc:dystopiablock": {}
 		},
-		"events": {
-			"placement_state": {
-				"set_block_property": {
-					"facing:direction": "(query.cardinal_facing_2d)"
-				}
-			},
-			"scp1074:touch": {
-				"add_mob_effect": {
-					"effect": "wither",
-					"target": "other",
-					"duration": 60,
-					"amplifier": 1
-				},
-				"run_command": {
-					"command": ["playsound scpdt.scp1074.touch @a[r=10] ~~~"]
-				}
-			}
-		},
 		"permutations": [
 			{
 				"condition": "q.block_state('facing:direction') == 2",
