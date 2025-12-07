@@ -36,13 +36,6 @@
 			},
 			"tag:wood": {}
 		},
-		"events": {
-			"lc:set_facing_direction": {
-				"set_block_property": {
-					"lc:facing_direction": "math.floor( query.block_face / 2.0 )"
-				}
-			}
-		},
 		"permutations": [
 			{
 				"condition": "query.block_property('lc:facing_direction') == 0",
