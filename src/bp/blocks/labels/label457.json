@@ -34,13 +34,6 @@
 			},
 			"minecraft:light_dampening": 0.3
 		},
-		"events": {
-			"placement_state": {
-				"set_block_state": {
-					"facing:direction": "(query.cardinal_facing_2d)"
-				}
-			}
-		},
 		"permutations": [
 			{
 				"condition": "query.block_state('facing:direction') == 2",
