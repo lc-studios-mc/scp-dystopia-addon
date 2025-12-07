@@ -4,6 +4,7 @@
 		"description": {
 			"identifier": "lc:dt_door4_lvl5",
 			"menu_category": {
+				"category": "none",
 				"is_hidden_in_commands": true
 			},
 			"states": {
