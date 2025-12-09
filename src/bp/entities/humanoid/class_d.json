@@ -704,34 +704,6 @@
 			"minecraft:attack": {
 				"damage": 3
 			},
-			"minecraft:behavior.pickup_items": {
-				"priority": 4,
-				"max_dist": 10,
-				"goal_radius": 2,
-				"speed_multiplier": 0.8,
-				"pickup_based_on_chance": false,
-				"can_pickup_any_item": false,
-				"cooldown_after_being_attacked": 25.0
-			},
-			"minecraft:shareables": {
-				"all_items": true,
-				"all_items_max_amount": 1,
-				"items": [
-					{ "item": "lc:dt_pizza_slice", "priority": 1, "max_amount": 30 },
-					{ "item": "lc:dt_random_document", "priority": 2, "max_amount": 64 },
-					{ "item": "lc:dt_scp500", "priority": 0, "max_amount": 16 }
-				]
-			},
-			"minecraft:behavior.eat_carried_item": {
-				"priority": 12,
-				"delay_before_eating": 2
-			},
-			"minecraft:behavior.equip_item": {
-				"priority": 2
-			},
-			"minecraft:inventory": {
-				"inventory_size": 6
-			},
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
 			"minecraft:can_climb": {},
