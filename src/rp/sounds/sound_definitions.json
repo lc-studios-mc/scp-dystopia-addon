@@ -710,7 +710,12 @@
 		"scpdt.class_d.gun_fire": {
 			"category": "hostile",
 			"max_distance": 20.0,
-			"sounds": ["sounds/scpmobs/class_d/gun_fire"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/class_d/gun_fire",
+					"volume": 0.4
+				}
+			]
 		},
 		"scpdt.class_d.take_gun": {
 			"category": "hostile",
