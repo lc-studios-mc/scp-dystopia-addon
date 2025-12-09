@@ -33,7 +33,9 @@
 				"duration": 0.1,
 				"category": "dt_ft_shooting"
 			},
-			"tag:lc:flamethrower": {}
+			"minecraft:tags": {
+				"tags": ["lc:flamethrower"]
+			}
 		}
 	}
 }

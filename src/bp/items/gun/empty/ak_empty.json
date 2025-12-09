@@ -29,7 +29,9 @@
 			"minecraft:display_name": {
 				"value": "dt.nameslot.ak.empty"
 			},
-			"tag:lc:ak_empty": {}
+			"minecraft:tags": {
+				"tags": ["lc:ak_empty"]
+			}
 		}
 	}
 }

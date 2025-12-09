@@ -28,7 +28,9 @@
 			"minecraft:display_name": {
 				"value": "dt.nameslot.glock.empty"
 			},
-			"tag:lc:glock_empty": {}
+			"minecraft:tags": {
+				"tags": ["lc:glock_empty"]
+			}
 		}
 	}
 }

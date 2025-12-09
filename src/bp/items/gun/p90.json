@@ -32,7 +32,9 @@
 				"duration": 0.1,
 				"category": "p90"
 			},
-			"tag:lc:class_d_can_equip": {}
+			"minecraft:tags": {
+				"tags": ["lc:class_d_can_equip"]
+			}
 		}
 	}
 }

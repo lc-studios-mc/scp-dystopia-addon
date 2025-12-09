@@ -28,7 +28,9 @@
 			"minecraft:display_name": {
 				"value": "SCP-268 \"Cap of Neglect\""
 			},
-			"tag:lc:scp268": {}
+			"minecraft:tags": {
+				"tags": ["lc:scp268"]
+			}
 		}
 	}
 }

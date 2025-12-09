@@ -32,8 +32,9 @@
 				"duration": 1.8,
 				"category": "dt_spas12_shooting"
 			},
-			"tag:lc:class_d_can_equip": {},
-			"tag:lc:spas12": {}
+			"minecraft:tags": {
+				"tags": ["lc:class_d_can_equip", "lc:spas12"]
+			}
 		}
 	}
 }

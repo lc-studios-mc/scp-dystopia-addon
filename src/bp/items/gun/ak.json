@@ -33,8 +33,9 @@
 				"duration": 0.1,
 				"category": "dt_ak_shooting"
 			},
-			"tag:lc:class_d_can_equip": {},
-			"tag:lc:ak": {}
+			"minecraft:tags": {
+				"tags": ["lc:class_d_can_equip", "lc:ak"]
+			}
 		}
 	}
 }

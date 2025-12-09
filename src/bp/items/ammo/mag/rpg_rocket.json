@@ -14,7 +14,9 @@
 			"minecraft:icon": "dt_rpg_rocket",
 			"minecraft:allow_off_hand": true,
 			"minecraft:max_stack_size": 1,
-			"tag:lc:rpg_rocket": {}
+			"minecraft:tags": {
+				"tags": ["lc:rpg_rocket"]
+			}
 		}
 	}
 }

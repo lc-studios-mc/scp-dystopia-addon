@@ -32,8 +32,9 @@
 				"duration": 0.3,
 				"category": "dt_glock_shooting"
 			},
-			"tag:lc:class_d_can_equip": {},
-			"tag:lc:glock": {}
+			"minecraft:tags": {
+				"tags": ["lc:class_d_can_equip", "lc:glock"]
+			}
 		},
 		"events": {
 			"glock:shoot": {

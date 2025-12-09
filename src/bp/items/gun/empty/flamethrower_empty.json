@@ -29,7 +29,9 @@
 			"minecraft:display_name": {
 				"value": "dt.nameslot.flamethrower.empty"
 			},
-			"tag:lc:flamethrower": {}
+			"minecraft:tags": {
+				"tags": ["lc:flamethrower_empty"]
+			}
 		}
 	}
 }

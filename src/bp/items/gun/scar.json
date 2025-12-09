@@ -32,7 +32,9 @@
 				"duration": 0.26,
 				"category": "scar"
 			},
-			"tag:lc:class_d_can_equip": {}
+			"minecraft:tags": {
+				"tags": ["lc:class_d_can_equip"]
+			}
 		}
 	}
 }
