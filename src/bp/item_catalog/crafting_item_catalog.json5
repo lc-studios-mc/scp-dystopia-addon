@@ -257,7 +257,6 @@
 							"lc:dt_living_bench",
 							"lc:dt_low_wood_bench",
 							"lc:dt_lunch_plate",
-							"lc:dt_medbay_sign",
 							"lc:dt_memo_book",
 							"lc:dt_men_toilet",
 							"lc:dt_mesh_catwalk",
@@ -309,7 +308,13 @@
 							icon: "lc:dt_poster",
 							name: "lc:dt_item_group_posters_and_wall_signs",
 						},
-						items: ["lc:dt_poster", "lc:dt_wall_image", "lc:dt_wall_sign", "lc:dt_scp_logo"],
+						items: [
+							"lc:dt_poster",
+							"lc:dt_wall_image",
+							"lc:dt_wall_sign",
+							"lc:dt_scp_logo",
+							"lc:dt_medbay_sign",
+						],
 					},
 
 					{
