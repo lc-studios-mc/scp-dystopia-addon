@@ -131,8 +131,8 @@
 				"random_stop_interval": 0,
 				"reach_multiplier": 8.74,
 				"speed_multiplier": 0.0,
-				"attack_duration": 4.12,
-				"hit_delay_pct": 2.31
+				"attack_duration": 2.2,
+				"hit_delay_pct": 1.0
 			},
 			"minecraft:pushable": {
 				"is_pushable": false,
