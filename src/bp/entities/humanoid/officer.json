@@ -371,7 +371,7 @@
 					"reach_multiplier": 3.18,
 					"speed_multiplier": 1.08,
 					"attack_duration": 0.16,
-					"hit_delay_pct": 0.13
+					"hit_delay_pct": 1.0
 				}
 			},
 			"death_officer_c": {
