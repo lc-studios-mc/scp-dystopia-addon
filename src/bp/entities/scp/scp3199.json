@@ -93,8 +93,7 @@
 					"random_stop_interval": 0,
 					"reach_multiplier": 2.4,
 					"speed_multiplier": 1.45,
-					"attack_duration": 0.23,
-					"hit_delay_pct": 0.14
+					"attack_duration": 0.1
 				},
 				"minecraft:ageable": {
 					"duration": 120,
@@ -116,8 +115,7 @@
 					"random_stop_interval": 0,
 					"reach_multiplier": 2.4,
 					"speed_multiplier": 1.33,
-					"attack_duration": 0.23,
-					"hit_delay_pct": 0.14
+					"attack_duration": 0.1
 				},
 				"minecraft:scale": {
 					"value": 0.8
