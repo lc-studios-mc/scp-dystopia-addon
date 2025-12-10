@@ -97,7 +97,10 @@ const COMPONENT: mc.BlockCustomComponent = {
 		const playerClearanceLevel = getEntityClearanceLevel(player);
 		const isAccepted = playerClearanceLevel >= minClearanceLevel;
 
-		if (!isAccepted) return;
+		if (!isAccepted) {
+			player.onScreenDisplay.setActionBar({ translate: "dt.guide.not_enough_clearance" });
+			return;
+		}
 
 		const blockToUpdate = isBottomPart ? block : otherPartBlock;
 
