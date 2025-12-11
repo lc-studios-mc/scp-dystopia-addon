@@ -724,7 +724,12 @@
 		"scpdt.goc_soldier.shoot": {
 			"category": "hostile",
 			"max_distance": 20.0,
-			"sounds": ["sounds/scpmobs/goc/soldier/shoot"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/goc/soldier/shoot",
+					"volume": 0.5
+				}
+			]
 		},
 
 		//Joke SCPs
