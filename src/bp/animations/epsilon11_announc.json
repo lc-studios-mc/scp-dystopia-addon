@@ -5,7 +5,9 @@
 			"animation_length": 160,
 			"loop": true,
 			"timeline": {
-				"60.0": ["/playsound scpdt.epsilon11.random_announcement @a"]
+				"60.0": [
+					"/execute as @a at @s run playsound scpdt.epsilon11.random_announcement @s ~~~ 0.3 1.0"
+				]
 			}
 		}
 	}

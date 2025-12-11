@@ -31,7 +31,9 @@
 							"do": "!query.is_sheared"
 						}
 					],
-					"on_entry": ["/playsound scpdt.epsilon11.announc_death @a"]
+					"on_entry": [
+						"/execute as @a at @s run playsound scpdt.epsilon11.announc_death @s ~~~ 0.5 1.0"
+					]
 				}
 			}
 		}

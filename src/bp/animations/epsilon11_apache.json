@@ -6,7 +6,7 @@
 			"timeline": {
 				"0.1": ["/playsound scpdt.epsilon11.apache_propeller @a"],
 				"16.0": ["/stopsound @a scpdt.epsilon11.enter"],
-				"16.1": ["/playsound scpdt.epsilon11.enter @a"],
+				"16.1": ["/execute as @a at @s run playsound scpdt.epsilon11.enter @s ~~~ 0.6 1.0"],
 				"16.2": [
 					"/summon lc:dt_epsilon11 ~~~-4",
 					"/summon lc:dt_epsilon11 ~~~-3",
