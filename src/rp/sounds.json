@@ -162,7 +162,7 @@
 					"shoot": {
 						"pitch": 0.93,
 						"sound": "scpdt.m249_turret.m249_shot",
-						"volume": 1.1
+						"volume": 1.4
 					}
 				},
 				"pitch": [1.0],

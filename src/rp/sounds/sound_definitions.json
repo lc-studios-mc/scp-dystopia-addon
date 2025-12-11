@@ -576,7 +576,12 @@
 		"scpdt.m249_turret.m249_shot": {
 			"category": "neutral",
 			"max_distance": 40.0,
-			"sounds": ["sounds/scpmobs/m249_turret/m249_shot"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/m249_turret/m249_shot",
+					"volume": 0.28
+				}
+			]
 		},
 		"scpdt.epsilon11.idle": {
 			"category": "hostile",
