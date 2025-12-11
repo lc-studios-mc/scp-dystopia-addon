@@ -135,6 +135,17 @@
 				"pitch": [1.0],
 				"volume": 1.0
 			},
+			"lc:dt_field_doctor": {
+				"events": {
+					"shoot": {
+						"pitch": 1.0,
+						"sound": "scpdt.hk_mp5.shot",
+						"volume": 1.14
+					}
+				},
+				"pitch": [1.0],
+				"volume": 1.0
+			},
 			"lc:dt_m249_turret": {
 				"events": {
 					"shoot": {
