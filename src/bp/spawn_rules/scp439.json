@@ -7,10 +7,9 @@
 		},
 		"conditions": [
 			{
-				"minecraft:spawns_on_surface": {},
 				"minecraft:spawns_underground": {},
 				"minecraft:weight": {
-					"default": 55
+					"default": 30
 				},
 				"minecraft:difficulty_filter": {
 					"min": "easy",
