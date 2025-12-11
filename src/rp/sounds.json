@@ -146,6 +146,17 @@
 				"pitch": [1.0],
 				"volume": 1.0
 			},
+			"lc:dt_chaos_insurgency": {
+				"events": {
+					"shoot": {
+						"pitch": 1.0,
+						"sound": "scpdt.m16.shot",
+						"volume": 1.2
+					}
+				},
+				"pitch": [1.0],
+				"volume": 1.0
+			},
 			"lc:dt_m249_turret": {
 				"events": {
 					"shoot": {
