@@ -673,7 +673,12 @@
 		},
 		"scpdt.eta10.enter": {
 			"category": "music",
-			"sounds": ["sounds/scpmobs/eta10/Announc"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/eta10/Announc",
+					"volume": 0.4
+				}
+			]
 		},
 		"scpdt.chaos.idle": {
 			"category": "hostile",
