@@ -122,7 +122,7 @@
 			"sounds": [
 				{
 					"name": "sounds/scpdt_misc/p90_shot",
-					"volume": 0.8
+					"volume": 0.5
 				}
 			]
 		},
