@@ -203,9 +203,8 @@
 			"lc:dt_epsilon11_apache_combat": {
 				"events": {
 					"shoot": {
-						"pitch": 0.86,
-						"sound": "scpdt.glock.shot",
-						"volume": 1.4
+						"sound": "scpdt.apache_combat.shoot",
+						"volume": 1.5
 					}
 				},
 				"pitch": [1.0],

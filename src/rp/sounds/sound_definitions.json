@@ -664,6 +664,17 @@
 			"category": "music",
 			"sounds": ["sounds/scpmobs/apache/launch"]
 		},
+		"scpdt.apache_combat.shoot": {
+			"category": "hostile",
+			"max_distance": 40.0,
+			"sounds": [
+				{
+					"name": "sounds/scpdt_misc/mp5a3/shot",
+					"volume": 0.36,
+					"pitch": 0.86
+				}
+			]
+		},
 		"scpdt.eta10.idle": {
 			"category": "hostile",
 			"sounds": [
