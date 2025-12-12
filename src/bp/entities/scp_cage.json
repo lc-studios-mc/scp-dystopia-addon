@@ -1,26 +1,10 @@
 {
-	"format_version": "1.13.0",
+	"format_version": "1.21.130",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "lc:dt_scp173_cage",
 			"is_spawnable": true,
-			"is_summonable": true,
-			"is_experimental": false
-		},
-		"component_groups": {
-			"death": {
-				"minecraft:spawn_entity": {
-					"entities": {
-						"min_wait_time": 0,
-						"max_wait_time": 0,
-						"spawn_sound": "plop",
-						"spawn_item": "lc:dt_scp173_cage_spawn_egg"
-					}
-				},
-				"minecraft:despawn": {}
-			},
-			"ready_to_contain": {},
-			"has_rider": {}
+			"is_summonable": true
 		},
 		"components": {
 			"minecraft:knockback_resistance": {
@@ -29,27 +13,44 @@
 			"minecraft:type_family": {
 				"family": ["scp173_cage", "scp_cage"]
 			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/scpdt/scp173_cage.json"
+			},
 			"minecraft:damage_sensor": {
-				"triggers": {
-					"cause": "fall",
-					"deals_damage": false
-				}
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": "no"
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"has_damage": "fatal",
+								"value": "fatal"
+							},
+							"event": "cage:death"
+						}
+					}
+				]
 			},
 			"minecraft:health": {
 				"value": 20,
 				"max": 20
 			},
 			"minecraft:rideable": {
+				"family_types": ["scp173"],
+				"pull_in_entities": true,
 				"seat_count": 1,
-				"family_types": ["scp"],
-				"seats": {
-					"position": [0.0, 0.4, 0.0]
-				}
+				"seats": [{ "position": [0.0, 0.4, 0.0] }]
 			},
 			"minecraft:leashable": {
-				"soft_distance": 1.0,
-				"hard_distance": 2.2,
-				"max_distance": 15.0
+				"presets": [
+					{
+						"soft_distance": 1.0,
+						"hard_distance": 2.2,
+						"max_distance": 15.0
+					}
+				]
 			},
 			"minecraft:interact": {
 				"interactions": {
@@ -74,7 +75,7 @@
 			},
 			"minecraft:pushable": {
 				"is_pushable": true,
-				"is_pushable_by_piston": false
+				"is_pushable_by_piston": true
 			},
 			"minecraft:collision_box": {
 				"width": 0.9,
@@ -82,14 +83,9 @@
 			}
 		},
 		"events": {
-			"minecraft:entity_spawned": {
-				"add": {
-					"component_groups": []
-				}
-			},
 			"cage:death": {
-				"add": {
-					"component_groups": ["death"]
+				"queue_command": {
+					"command": "kill @s"
 				}
 			}
 		}
