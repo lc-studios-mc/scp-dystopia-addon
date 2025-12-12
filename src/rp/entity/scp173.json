@@ -4,26 +4,18 @@
 		"description": {
 			"identifier": "lc:dt_scp173",
 			"materials": {
-				"default": "npc"
+				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/dt_scp173_new"
+				"default": "textures/entity/dt_scp173"
 			},
 			"geometry": {
-				"default": "geometry.dt_scp173_new"
-			},
-			"animations": {
-				"general": "animation.dt_scp173.general",
-
-				"anim_cont": "controller.animation.dt_scp173.anim_cont"
-			},
-			"scripts": {
-				"animate": ["anim_cont"]
+				"default": "geometry.dt_scp173"
 			},
 			"render_controllers": ["controller.render.scp_dystopia"],
 			"spawn_egg": {
-				"base_color": "#CFC4A4",
-				"overlay_color": "#782315"
+				"base_color": "#8f959c",
+				"overlay_color": "#4d0505"
 			}
 		}
 	}
