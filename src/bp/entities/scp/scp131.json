@@ -104,14 +104,6 @@
 				"is_pushable": true,
 				"is_pushable_by_piston": true
 			},
-			"minecraft:behavior.move_towards_restriction": {
-				"priority": 1,
-				"speed_multiplier": 1
-			},
-			"minecraft:behavior.move_indoors": {
-				"priority": 5,
-				"speed_multiplier": 1
-			},
 			"minecraft:behavior.random_stroll": {
 				"priority": 7,
 				"speed_multiplier": 0.9
@@ -123,20 +115,8 @@
 			},
 			"minecraft:behavior.look_at_entity": {
 				"priority": 1,
-				"look_distance": 3.2,
+				"look_distance": 7.0,
 				"filters": { "test": "is_family", "subject": "other", "value": "scp173" }
-			},
-			"minecraft:behavior.run_around_like_crazy": {
-				"priority": 1,
-				"speed_multiplier": 1.2
-			},
-			"minecraft:behavior.follow_caravan": {
-				"priority": 3,
-				"speed_multiplier": 2.1,
-				"entity_count": 10,
-				"entity_types": {
-					"filters": { "test": "is_family", "subject": "other", "value": "scp131" }
-				}
 			},
 			"minecraft:tameable": {
 				"probability": 0.3,
