@@ -117,8 +117,8 @@
 				"random_stop_interval": 0,
 				"reach_multiplier": 2.4,
 				"speed_multiplier": 1.14,
-				"attack_duration": 0.5,
-				"hit_delay_pct": 0.27
+				"attack_duration": 0.3,
+				"hit_delay_pct": 1.0
 			},
 			"minecraft:behavior.hurt_by_target": {
 				"priority": 2
