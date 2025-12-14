@@ -60,13 +60,12 @@
 				"priority": 0,
 				"within_radius": 32,
 				"reselect_targets": false,
-				"attack_interval": 0.7,
 				"entity_types": [
 					{
 						"filters": {
 							"other_with_families": ["villager", "human", "player"]
 						},
-						"max_dist": 32
+						"max_dist": 24
 					}
 				],
 				"must_see_forget_duration": 20.0,
@@ -80,18 +79,9 @@
 				"block_type": "minecraft:fire"
 			},
 			"breakable_blocks": ["tallgrass", "red_flower", "yellow_flower", "double_plant"],
-			"minecraft:behavior.melee_attack": {
+			"minecraft:behavior.melee_box_attack": {
 				"priority": 0,
-				"speed_multiplier": 1.06,
-				"track_target": true
-			},
-			"minecraft:behavior.move_towards_restriction": {
-				"priority": 1,
-				"speed_multiplier": 1
-			},
-			"minecraft:behavior.move_indoors": {
-				"priority": 5,
-				"speed_multiplier": 1
+				"speed_multiplier": 1.06
 			},
 			"minecraft:behavior.random_stroll": {
 				"priority": 7,
@@ -119,7 +109,7 @@
 				"can_path_over_water": false,
 				"avoid_sun": false,
 				"avoid_water": true,
-				"avoid_damage_blocks": true,
+				"avoid_damage_blocks": false,
 				"can_pass_doors": true,
 				"can_break_doors": true
 			}
