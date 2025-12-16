@@ -37,7 +37,8 @@
 				"destroy_chance_modifier": 20
 			},
 			"minecraft:light_dampening": 1,
-			"tag:lc:dystopiablock": {}
+			"tag:lc:dystopiablock": {},
+			"tag:lc:sittable": {}
 		},
 		"permutations": [
 			{

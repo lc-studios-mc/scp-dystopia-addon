@@ -1,4 +1,6 @@
+import { convertLegacyFacingDirectionToDir, getLegacyFacingDirectionIndex } from "@/lib/direction";
 import { sit } from "@/lib/sit";
+import { reverseDirection } from "@mcbe-toolbox-lc/sukuriputils/server";
 import * as mc from "@minecraft/server";
 
 mc.system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
@@ -14,11 +16,9 @@ mc.system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
 
 			const isButtghost = block.permutation.getState("toilet:buttghost") === 1;
 
-			sit(
-				player,
-				block.bottomCenter(),
-				isButtghost ? "lc:dt_sit_toilet_buttghost" : "lc:dt_sit_toilet",
-			);
+			const facingDirIndex = getLegacyFacingDirectionIndex(block.permutation);
+			const sitDirection = reverseDirection(convertLegacyFacingDirectionToDir(facingDirIndex));
+			sit(isButtghost ? "toilet_buttghost" : "toilet", player, block.center(), sitDirection);
 		},
 		onTick({ block, dimension }) {
 			const isButtghost = block.permutation.getState("toilet:buttghost") === 1;

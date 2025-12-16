@@ -33,7 +33,8 @@
 				"seconds_to_destroy": 1.4
 			},
 			"minecraft:light_dampening": 4,
-			"tag:lc:dystopiablock": {}
+			"tag:lc:dystopiablock": {},
+			"tag:lc:sittable": {}
 		},
 		"permutations": [
 			{
