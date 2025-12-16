@@ -1,1 +1,0 @@
-event entity @e[type=lc:dt_look] look:death
