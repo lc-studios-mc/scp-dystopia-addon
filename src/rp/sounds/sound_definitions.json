@@ -1275,19 +1275,43 @@
 		},
 		"scpdt.scp5167_boss.death": {
 			"category": "music",
-			"sounds": ["sounds/scpmobs/scp5167_boss/death"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/death",
+					"volume": 0.3
+				}
+			]
 		},
 		"scpdt.scp5167_boss.attack": {
 			"category": "hostile",
-			"sounds": ["sounds/scpmobs/scp5167_boss/attack"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/attack",
+					"volume": 0.3
+				}
+			]
 		},
 		"scpdt.scp5167_boss.idle": {
 			"category": "hostile",
-			"sounds": ["sounds/scpmobs/scp5167_boss/sus", "sounds/scpmobs/scp5167_boss/amogus"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/sus",
+					"volume": 0.3
+				},
+				{
+					"name": "sounds/scpmobs/scp5167_boss/amogus",
+					"volume": 0.3
+				}
+			]
 		},
 		"scpdt.scp5167_boss.stronger": {
 			"category": "music",
-			"sounds": ["sounds/scpmobs/scp5167_boss/stronger"]
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/stronger",
+					"volume": 0.3
+				}
+			]
 		},
 		"scpdt.scp5167_dragon.flap": {
 			"category": "music",
