@@ -25,17 +25,6 @@
 					"name": "SCP-5167 Boss",
 					"hud_range": 35
 				},
-				"minecraft:area_attack": {
-					"damage_range": 0.3,
-					"damage_per_tick": 5,
-					"cause": "contact",
-					"entity_filter": {
-						"all_of": [
-							{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp5167" },
-							{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp" }
-						]
-					}
-				},
 				"minecraft:behavior.melee_attack": {
 					"priority": 1,
 					"speed_multiplier": 1.11
@@ -55,17 +44,6 @@
 					"should_darken_sky": false,
 					"name": "§c§klll§r §fSCP-5167 Boss §c§klll",
 					"hud_range": 35
-				},
-				"minecraft:area_attack": {
-					"damage_range": 0.32,
-					"damage_per_tick": 10,
-					"cause": "contact",
-					"entity_filter": {
-						"all_of": [
-							{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp5167" },
-							{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp" }
-						]
-					}
 				},
 				"minecraft:is_sheared": {},
 				"minecraft:behavior.leap_at_target": {
@@ -94,13 +72,12 @@
 					"hud_range": 35
 				},
 				"minecraft:area_attack": {
-					"damage_range": 0.32,
-					"damage_per_tick": 15,
+					"damage_range": 0.25,
+					"damage_per_tick": 4,
 					"cause": "contact",
 					"entity_filter": {
 						"all_of": [
-							{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp5167" },
-							{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp" }
+							{ "test": "is_family", "subject": "other", "operator": "!=", "value": "scp5167" }
 						]
 					}
 				},
