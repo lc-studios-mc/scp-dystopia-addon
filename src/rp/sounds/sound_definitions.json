@@ -1314,12 +1314,18 @@
 			]
 		},
 		"scpdt.scp5167_dragon.flap": {
-			"category": "music",
-			"sounds": ["sounds/scpmobs/scp5167_dragon/flap"]
+			"category": "hostile",
+			"max_distance": 50.0,
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_dragon/flap",
+					"volume": 0.6
+				}
+			]
 		},
 		"scpdt.scp5167_dragon.death": {
-			"category": "neutral",
-			"max_distance": 60.0,
+			"category": "hostile",
+			"max_distance": 50.0,
 			"sounds": ["sounds/scpmobs/scp5167_dragon/death"]
 		},
 		"scpdt.scp5167_dragon.shot": {

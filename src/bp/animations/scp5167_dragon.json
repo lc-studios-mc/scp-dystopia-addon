@@ -5,7 +5,7 @@
 			"animation_length": 0.76,
 			"loop": true,
 			"timeline": {
-				"0": ["/playsound scpdt.scp5167_dragon.flap @a[r=50]"]
+				"0": ["/playsound scpdt.scp5167_dragon.flap @a[r=50] ~ ~ ~ 2.6 1.0"]
 			}
 		},
 		"animation.scp5167_dragon.spawning": {
