@@ -30,6 +30,7 @@ import "./lose_durability_on_dig";
 import "./medkit";
 import "./morphine_syringe";
 import "./painkillers";
+import "./scp_document";
 import "./scp063";
 import "./scp096_picture";
 import "./scp207";

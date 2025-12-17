@@ -533,6 +533,14 @@
 
 					{
 						group_identifier: {
+							icon: "lc:dt_scp049_doc",
+							name: "lc:dt_item_group_scp_docs",
+						},
+						items: ["lc:dt_scp049_doc", "lc:dt_scp096_doc", "lc:dt_scp173_doc", "lc:dt_scp939_doc"],
+					},
+
+					{
+						group_identifier: {
 							icon: "lc:dt_glock_ammo",
 							name: "lc:dt_item_group_ammo",
 						},
