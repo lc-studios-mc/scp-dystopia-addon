@@ -367,24 +367,6 @@
 				"avoid_water": true,
 				"avoid_damage_blocks": true,
 				"avoid_sun": false
-			},
-			"minecraft:conditional_bandwidth_optimization": {
-				"minecraft:conditional_bandwidth_optimization": {
-					"default_values": {
-						"max_optimized_distance": 60.0,
-						"max_dropped_ticks": 10,
-						"use_motion_prediction_hints": true
-					},
-					"conditional_values": [
-						{
-							"max_optimized_distance": 0.0,
-							"max_dropped_ticks": 0,
-							"conditional_values": [
-								{ "test": "has_target", "subject": "self", "operator": "==", "value": true }
-							]
-						}
-					]
-				}
 			}
 		},
 		"events": {
