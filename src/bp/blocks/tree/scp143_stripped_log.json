@@ -1,17 +1,22 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.120",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lc:dt_scp143_stripped_log",
-			"properties": {
+			"menu_category": {
+				"category": "nature"
+			},
+			"states": {
 				"lc:facing_direction": [0, 1, 2]
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:block_face"]
+				}
 			}
 		},
 		"components": {
-			"minecraft:creative_category": {
-				"category": "nature",
-				"group": "itemGroup.name.log"
-			},
+			"scpdt:scp143_log_direction": {},
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "dt_scp143_stripped_log",
@@ -24,35 +29,27 @@
 				"up": "ends",
 				"down": "ends"
 			},
-			"minecraft:flammable": {
-				"burn_odds": 50,
-				"flame_odds": 25
-			},
 			"minecraft:loot": "loot_tables/blocks/scpdt/scp143/scp143_stripped_log.json",
-			"minecraft:destroy_time": 1.0,
-			"minecraft:unit_cube": {},
-			"minecraft:on_player_placing": {
-				"event": "lc:set_facing_direction"
+			"minecraft:flammable": {
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
 			},
-			"tag:wood": {}
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.0
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block"
 		},
 		"permutations": [
 			{
-				"condition": "query.block_property('lc:facing_direction') == 0",
+				"condition": "query.block_state('lc:facing_direction') == 1",
 				"components": {
-					"minecraft:rotation": [0, 0, 0]
+					"minecraft:transformation": { "rotation": [90, 0, 0] }
 				}
 			},
 			{
-				"condition": "query.block_property('lc:facing_direction') == 1",
+				"condition": "query.block_state('lc:facing_direction') == 2",
 				"components": {
-					"minecraft:rotation": [90, 0, 0]
-				}
-			},
-			{
-				"condition": "query.block_property('lc:facing_direction') == 2",
-				"components": {
-					"minecraft:rotation": [0, 0, 90]
+					"minecraft:transformation": { "rotation": [0, 0, 90] }
 				}
 			}
 		]

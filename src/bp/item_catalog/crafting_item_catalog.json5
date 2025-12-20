@@ -568,7 +568,12 @@
 							icon: "lc:dt_scp143_sapling_placer",
 							name: "lc:dt_item_group_scp143",
 						},
-						items: ["lc:dt_scp143_sapling_placer", "lc:dt_scp143_log", "lc:dt_scp143_leaves"],
+						items: [
+							"lc:dt_scp143_sapling_placer",
+							"lc:dt_scp143_log",
+							"lc:dt_scp143_stripped_log",
+							"lc:dt_scp143_leaves",
+						],
 					},
 				],
 			},
