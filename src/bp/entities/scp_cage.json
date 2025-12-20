@@ -21,15 +21,6 @@
 					{
 						"cause": "fall",
 						"deals_damage": "no"
-					},
-					{
-						"on_damage": {
-							"filters": {
-								"has_damage": "fatal",
-								"value": "fatal"
-							},
-							"event": "cage:death"
-						}
 					}
 				]
 			},
