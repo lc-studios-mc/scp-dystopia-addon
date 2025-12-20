@@ -2,7 +2,7 @@
 	"format_version": "1.12",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "lc:dt_lamp_cover"
+			"identifier": "lc:dt_ceiling_lamp_cover"
 		},
 
 		"tags": ["crafting_table"],
@@ -19,7 +19,7 @@
 			}
 		},
 		"result": {
-			"item": "lc:dt_lamp_cover",
+			"item": "lc:dt_ceiling_lamp_cover",
 			"count": 10
 		}
 	}
