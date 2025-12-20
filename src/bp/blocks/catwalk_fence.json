@@ -48,14 +48,8 @@
 				"condition": "query.block_state('fence:variant') == 1",
 				"components": {
 					"minecraft:geometry": "geometry.dt_catwalk_fence_corner",
-					"minecraft:selection_box": {
-						"origin": [-8, 0, -8],
-						"size": [16, 15, 16]
-					},
-					"minecraft:collision_box": {
-						"origin": [-8, 0, -8],
-						"size": [8, 15, 8]
-					}
+					"minecraft:selection_box": true,
+					"minecraft:collision_box": true
 				}
 			},
 
@@ -63,14 +57,8 @@
 				"condition": "query.block_state('fence:variant') == 2",
 				"components": {
 					"minecraft:geometry": "geometry.dt_catwalk_fence_corner2",
-					"minecraft:selection_box": {
-						"origin": [-8, 0, -8],
-						"size": [16, 15, 16]
-					},
-					"minecraft:collision_box": {
-						"origin": [8, 0, 8],
-						"size": [8, 15, 8]
-					}
+					"minecraft:selection_box": true,
+					"minecraft:collision_box": true
 				}
 			},
 			{
