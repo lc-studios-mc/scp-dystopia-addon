@@ -15,7 +15,7 @@
 					"animations": ["pickup_gun"],
 					"transitions": [
 						{
-							"got_a_gun": "query.all_animations.finished"
+							"got_a_gun": "query.all_animations_finished"
 						}
 					],
 					"on_entry": ["/tag @s add armed_class_d"]
