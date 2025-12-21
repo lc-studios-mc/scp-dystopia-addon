@@ -29,7 +29,7 @@
 				"origin": [-8, 0, -8],
 				"size": [0, 0, 0]
 			},
-			"minecraft:loot": "loot_tables/blocks/empty.json",
+			"minecraft:loot": "loot_tables/empty.json",
 			"minecraft:geometry": "geometry.dt_scp106_corrosion",
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0.7
