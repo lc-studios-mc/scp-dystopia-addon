@@ -1,1 +1,0 @@
-execute @e[type=lc:dt_scp173_cage,c=1] ~~~ ride @e[type=lc:dt_scp173,c=1] start_riding @s

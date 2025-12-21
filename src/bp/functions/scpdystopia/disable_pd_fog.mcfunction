@@ -1,1 +1,0 @@
-fog @a remove dt_pd_fog
