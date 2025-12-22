@@ -1,18 +1,28 @@
 {
-	"format_version": "1.12",
-	"minecraft:recipe_shapeless": {
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "lc:dt_light3"
 		},
-
 		"tags": ["crafting_table"],
-		"ingredients": [
-			{
+		// prettier-ignore
+		"pattern": [
+			"ID",
+			"  ",
+			" L"
+		],
+		"key": {
+			"D": {
+				"item": "lc:dt_scpdystopia_orb"
+			},
+			"L": {
 				"item": "minecraft:redstone_lamp"
 			},
-			{
+			"I": {
 				"item": "minecraft:iron_ingot"
-			},
+			}
+		},
+		"unlock": [
 			{
 				"item": "lc:dt_scpdystopia_orb"
 			}
