@@ -1458,32 +1458,6 @@
 		"scpdt.scp1000.growl": {
 			"category": "hostile",
 			"sounds": ["sounds/scpmobs/scp1000/growl1", "sounds/scpmobs/scp1000/growl2"]
-		},
-
-		//Commentary
-		"scpdt.commentary.triedtospawnentity": {
-			"category": "music",
-			"sounds": ["commentary/sounds/triedtospawnentity"]
-		},
-		"scpdt.commentary.amogus": {
-			"category": "music",
-			"sounds": ["commentary/sounds/amogus"]
-		},
-		"scpdt.commentary.thanks": {
-			"category": "music",
-			"sounds": ["commentary/sounds/thanks"]
-		},
-		"scpdt.commentary.main_features": {
-			"category": "music",
-			"sounds": ["commentary/sounds/mainfeatures"]
-		},
-		"scpdt.commentary.compatibility": {
-			"category": "music",
-			"sounds": ["commentary/sounds/compatibility"]
-		},
-		"scpdt.commentary.first_version": {
-			"category": "music",
-			"sounds": ["commentary/sounds/firstversion"]
 		}
 	}
 }
