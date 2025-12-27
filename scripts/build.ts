@@ -24,7 +24,7 @@ const resourcePackUuid = "ddf2b8c2-0a9a-4ef9-b305-601872a22e46";
 // --- Define pack manfiests
 
 const packManifestName = `SCP: Dystopia ${isDev ? "DEV" : versionForHumans}`;
-const packManifestDescription = "An add-on for SCP Foundation-themed creations.";
+const packManifestDescription = "The classic 2021–2022 SCP experience has been resurrected.";
 
 const behaviorPackManifest = {
 	format_version: 2,
